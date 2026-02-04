@@ -29,6 +29,19 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+
+.clientcontainer{
+width:300px;
+padding: 20px;
+border-radius: 10px;
+
+  
+}
+
+
+
 .mxd-nav__wrap {
   display: block;
   pointer-events: none;

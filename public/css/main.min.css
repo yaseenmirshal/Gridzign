@@ -355,6 +355,13 @@
   --bg-demo-screen-09: var(--bg-demo-screen-09--dark);
 }
 
+
+.clientlogonew{
+  width: 20rem ;
+  border-radius: 0.5rem;
+
+}
+
 .about-image-1 {
   background-image: url(/img/avatars/1400x1400_ava-01.webp);
 }
@@ -17605,8 +17612,8 @@ form textarea:required:valid {
 }
 .marquee__item {
   position: relative;
-  width: 220px !important;
-  height: 220px !important;
+  width: 420px;
+  height: 220px ;
   -moz-border-radius: var(--_radius-m);
   border-radius: var(--_radius-m);
   overflow: hidden;

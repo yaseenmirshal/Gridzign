@@ -90,7 +90,7 @@ export default function Hero() {
                         Engineering Digital Excellences
                       </p>
                       <p className="t-large t-medium t-120 t-muted">
-                        That Drive Growth
+                        The Drive Growth
                       </p>
                     </div>
                   </div>
@@ -166,7 +166,7 @@ export default function Hero() {
                   </div>
                   {/* single item */}
                   <div className="marquee__item one-line item-regular text">
-                    <p className="marquee__text">the power of imagination</p>
+                    <p className="marquee__text">The power of imagination</p>
                     <div className="marquee__image">
                       <svg
                         className="mxd-pulse"

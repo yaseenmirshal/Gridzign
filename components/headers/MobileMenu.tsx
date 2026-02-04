@@ -5,11 +5,12 @@ import menuItems from "@/data/menu.json"; // adjust path accordingly
 import { useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import gsap from "gsap";
-import Flip from "gsap/Flip";
+import { Flip } from "gsap/all";
 import { usePathname } from "next/navigation";
 import AnimatedButton from "../animation/AnimatedButton";
 
 gsap.registerPlugin(Flip);
+
 
 export default function MobileMenu() {
   const pathname = usePathname();

@@ -1,0 +1,26 @@
+[
+  {
+    "label": "Homie",
+    "href": "/home-main"
+  },
+  {
+    "label": "About us",
+    "href": "/about-us"
+  },
+  {
+    "label": "Case Studies",
+    "href": "/works-simple"
+  },
+  {
+    "label": "Services",
+    "href": "/services"
+  },
+  {
+    "label": "Insights",
+    "href": "/blog-standard"
+  },
+  {
+    "label": "Connect",
+    "href": "/contact"
+  }
+]

@@ -89,7 +89,7 @@ export default function MarqueeSlider3() {
                 <Image
                   alt="Image"
                   src="/img/clientslogo/14.png"
-                  width={1200}
+                  width={1100}
                   height={1000}
                 />
               </Link>

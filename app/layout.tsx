@@ -4,7 +4,7 @@ import ClientLayout from "@/components/layout/ClientLayout";
 // Metadata (JSX-compatible)
 export const metadata = {
   title: "Gridzign",
-  description: "Digital Agency - UAE",
+  description: "Digital Agencygit",
 };
 
 const setColorSchemeScript = `

@@ -11,7 +11,6 @@ import AnimatedButton from "../animation/AnimatedButton";
 
 gsap.registerPlugin(Flip);
 
-
 export default function MobileMenu() {
   const pathname = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);

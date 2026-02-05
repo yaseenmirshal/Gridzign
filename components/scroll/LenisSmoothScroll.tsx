@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import Lenis from "@studio-freight/lenis";
+import Lenis from "lenis";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -13,7 +13,7 @@ export default function LenisSmoothScroll() {
       typeof window !== "undefined" &&
       /iPad|iPhone|iPod/.test(navigator.userAgent);
 
-      
+
     // Disable Lenis on iOS (best practice)
     if (isIOS) return;
 

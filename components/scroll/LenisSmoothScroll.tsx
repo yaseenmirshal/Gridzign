@@ -13,6 +13,7 @@ export default function LenisSmoothScroll() {
       typeof window !== "undefined" &&
       /iPad|iPhone|iPod/.test(navigator.userAgent);
 
+      
     // Disable Lenis on iOS (best practice)
     if (isIOS) return;
 

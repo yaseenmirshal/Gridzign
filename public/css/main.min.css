@@ -5499,8 +5499,8 @@ form textarea:required:valid {
   -moz-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  min-height: 4.6rem;
-  margin-top: 3rem;
+  min-height: 2rem;
+  margin-top: 2rem;
   padding: 0 3rem;
   z-index: 2;
   pointer-events: none;
@@ -5510,8 +5510,8 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 768px) {
   .mxd-nav__contain {
-    min-height: 5.6rem;
-    margin-top: 4rem;
+    min-height: 3.6rem;
+    margin-top: 3rem;
     padding: 0 6rem;
   }
 }
@@ -6343,7 +6343,7 @@ form textarea:required:valid {
   position: relative;
   width: 100%;
   max-width: 1920px;
-  margin-top: 500px;
+  margin-top: 40px !important;
   margin: 0 auto;
   padding-bottom: 3rem;
 }
@@ -14852,6 +14852,7 @@ form textarea:required:valid {
 }
 .mxd-demo-footer {
   position: relative;
+
 }
 .mxd-demo-footer__bg {
   position: absolute;

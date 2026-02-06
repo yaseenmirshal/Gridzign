@@ -199,8 +199,7 @@ export default function MarqueeSlider3() {
           {/* bottom line */}
           <VelocityMarquee className="marquee marquee--gsap">
            
-         
-
+        
             {/* item */}
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>

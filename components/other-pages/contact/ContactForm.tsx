@@ -61,12 +61,12 @@ export default function ContactForm() {
                           <input
                             type="hidden"
                             name="project_name"
-                            defaultValue="Rayo Template"
+                            defaultValue="Let's Connect"
                           />
                           <input
                             type="hidden"
                             name="admin_email"
-                            defaultValue="support@mixdesign.dev"
+                            defaultValue="info@gridzign.com"
                           />
                           <input
                             type="hidden"

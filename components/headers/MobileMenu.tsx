@@ -264,7 +264,7 @@ export default function MobileMenu() {
               </p>
               <p className="t-xsmall">
              
-                <Link href={"https://hostimpress.com/"}>
+                <Link target="_blank" href={"https://hostimpress.com/"}>
                 Together with Hostimpress
                 </Link>
               </p>

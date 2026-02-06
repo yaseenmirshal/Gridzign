@@ -9,9 +9,9 @@ import Socials from "@/components/other-pages/contact/Socials";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Contact || Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Gridzign ",
   description:
-    "Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Contact",
 };
 export default function ContactPage() {
   return (
@@ -71,7 +71,7 @@ export default function ContactPage() {
           </div>
         </div>
         <Socials />
-        <Locations />
+        {/* <Locations /> */}
         <Cta />
       </main>
       <Footer2 />

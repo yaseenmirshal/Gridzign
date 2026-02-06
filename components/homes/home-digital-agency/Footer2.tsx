@@ -136,7 +136,7 @@ export default function Footer2() {
             {/* links */}
             <div className="footer-blocks__links anim-uni-in-up">
               <AnimatedButton
-                text="Privacy Policy"
+                text="Gridzign Subscriptions"
                 as={"a"}
                 className="btn btn-line-xsmall btn-muted slide-right anim-no-delay"
                 href="#"
@@ -144,7 +144,7 @@ export default function Footer2() {
                 <i className="ph ph-arrow-right" />
               </AnimatedButton>
               <AnimatedButton
-                text="Terms &amp; conditions"
+                text="T&amp;C"
                 as={"a"}
                 className="btn btn-line-xsmall btn-muted slide-right anim-no-delay"
                 href="#"
@@ -209,7 +209,7 @@ export default function Footer2() {
             c0,0,1.3-0.1,1.8-0.2c1,0,4,0,4,0c0.2,0,0.4-0.2,0.4-0.4C20,9.8,19.8,9.6,19.6,9.6L19.6,9.6z"
                 />
               </svg>
-              <a href="tel:+12127089400">+971 212-708-9400</a>
+              <a href="tel:+12127089400">+971 54 794 0118</a>
             </p>
           </div>
           {/* inner card */}
@@ -268,7 +268,11 @@ export default function Footer2() {
             {/* links */}
             <div className="footer-blocks__links anim-uni-in-up">
               <p className="t-xsmall t-muted">
-              Gridzign © 2026
+              Gridzign © 2026 
+              <Link target="_blank" href="https://hostimpress.com/" >
+             Together with Hostimpress
+              </Link>
+               
               </p> 
             </div>
           </div>

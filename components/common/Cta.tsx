@@ -29,12 +29,12 @@ export default function Cta() {
                     as="span"
                     className="mxd-promo__caption reveal-type"
                   >
-                    Let&apos;s talk about your project!
+                    Start Your Next<br/> Big Idea
                   </RevealText>
                 </p>
                 <div className="mxd-promo__controls anim-uni-in-up">
                   <AnimatedButton
-                    text="Contact Me"
+                    text="Contact Us"
                     className="btn btn-anim btn-default btn-large btn-additional slide-right-up"
                     href={`/contact`}
                   >

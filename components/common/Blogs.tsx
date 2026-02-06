@@ -64,23 +64,14 @@ export default function Blogs({
                   <Link className="mxd-blog-preview__media" href={`/blog-article`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
-                        src="/img/blog/frontend.png"
+                        src="https://i.ibb.co/xqQTJMCr/3457638478293472-9-2.png"
                         alt="Blog 1"
                         fill
                         className="object-cover"
                       />
                     </div>
 
-                    <div className="mxd-preview-hover">
-                      <i className="mxd-preview-hover__icon">
-                        <Image
-                          alt="Eye Icon"
-                          src="/img/icons/icon-eye.svg"
-                          width={38}
-                          height={21}
-                        />
-                      </i>
-                    </div>
+                   
 
                     <div className="mxd-blog-preview__tags">
                       <span className="tag tag-default tag-permanent">Design</span>
@@ -89,8 +80,8 @@ export default function Blogs({
                   </Link>
 
                   <div className="mxd-blog-preview__data">
-                    <Link className="anim-uni-in-up" href={`/blog-article`}>
-                      How to build <span>Modern UI</span> in 2026
+                    <Link  href={`/blog-article`}>
+                      Why Every Business Needs an <span>E-Commerce </span> Website in Today’s Digital World 
                     </Link>
                   </div>
                 </div>
@@ -100,23 +91,14 @@ export default function Blogs({
                   <Link className="mxd-blog-preview__media" href={`/blog-article`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
-                        src="https://cdn.searchenginejournal.com/wp-content/uploads/2023/03/untitled-design-43-6405cb01dcfc7-sej.png"
+                        src="https://i.ibb.co/rKg1zkqP/119984.jpg"
                         alt="Blog 2"
                         fill
                         className="object-cover"
                       />
                     </div>
 
-                    <div className="mxd-preview-hover">
-                      <i className="mxd-preview-hover__icon">
-                        <Image
-                          alt="Eye Icon"
-                          src="/img/icons/icon-eye.svg"
-                          width={38}
-                          height={21}
-                        />
-                      </i>
-                    </div>
+                  
 
                     <div className="mxd-blog-preview__tags">
                       <span className="tag tag-default tag-permanent">Tech</span>
@@ -125,8 +107,8 @@ export default function Blogs({
                   </Link>
 
                   <div className="mxd-blog-preview__data">
-                    <Link className="anim-uni-in-up" href={`/blog-article`}>
-                      Boost your <span>Website Speed</span> like a Pro
+                    <Link  href={`/blog-article`}>
+                      Why <span>SEO</span> is Crucial for Every Business in the Digital Age
                     </Link>
                   </div>
                 </div>
@@ -136,23 +118,13 @@ export default function Blogs({
                   <Link className="mxd-blog-preview__media" href={`/blog-article`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
-                        src="https://png.pngtree.com/thumb_back/fh260/background/20260112/pngtree-comprehensive-corporate-brand-identity-mockup-set-displayed-on-an-office-desk-image_20997254.webp"
+                        src="https://i.ibb.co/mCjn0948/3457638478293472-11-e1757925682249.jpg"
                         alt="Blog 3"
                         fill
                         className="object-cover"
                       />
                     </div>
 
-                    <div className="mxd-preview-hover">
-                      <i className="mxd-preview-hover__icon">
-                        <Image
-                          alt="Eye Icon"
-                          src="/img/icons/icon-eye.svg"
-                          width={38}
-                          height={21}
-                        />
-                      </i>
-                    </div>
 
                     <div className="mxd-blog-preview__tags">
                       <span className="tag tag-default tag-permanent">Branding</span>
@@ -161,8 +133,8 @@ export default function Blogs({
                   </Link>
 
                   <div className="mxd-blog-preview__data">
-                    <Link className="anim-uni-in-up" href={`/blog-article`}>
-                      Create a <span>Strong Brand</span> identity fast
+                    <Link  href={`/blog-article`}>
+                      Why Every Business Needs a <span>Website</span> in the Digital Era
                     </Link>
                   </div>
                 </div>

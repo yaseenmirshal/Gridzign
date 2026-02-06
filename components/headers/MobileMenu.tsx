@@ -213,7 +213,7 @@ export default function MobileMenu() {
               <div className="menu-promo">
                 <div className="menu-promo__content">
 
-                   <img className="menu-promo__video fade-in-up-elm" style={{ borderRadius: "15px" , transitionDelay: "0.3s"}}  src="https://i.ibb.co/7J2SSg3j/2150010127.jpg" alt="GridZign" width={60} height={60} />
+                   <img className="menu-promo__video fade-in-up-elm" style={{ borderRadius: "35px" , transitionDelay: "0.3s"}}  src="https://i.ibb.co/7J2SSg3j/2150010127.jpg" alt="GridZign" width={60} height={60} />
 
                   <p
                     className="menu-promo__caption fade-in-elm"

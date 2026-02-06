@@ -194,6 +194,19 @@ export default function MarqueeSlider3() {
               </Link>
             </div>
 
+             {/* item */}
+            <div className="clientcontainer">
+              <Link className="clientlogonew" href={`/team`}>
+                <Image
+                  className="clientimage"
+                  alt="Image"
+                  src="/img/clientslogo/15.png"
+                  width={1200}
+                  height={1000}
+                />
+              </Link>
+            </div>
+
           
           </VelocityMarquee>
           {/* bottom line */}
@@ -206,7 +219,7 @@ export default function MarqueeSlider3() {
                 <Image
                  className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/4.png"
+                  src="/img/clientslogo/16.png"
                   width={1200}
                   height={1000}
                 />
@@ -218,7 +231,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/5.png"
+                  src="/img/clientslogo/17.png"
                   width={1200}
                   height={1000}
                 />
@@ -231,7 +244,7 @@ export default function MarqueeSlider3() {
                 <Image
                   className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/4.png"
+                  src="/img/clientslogo/18.png"
                   width={1200}
                   height={1000}
                 />
@@ -243,7 +256,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/5.png"
+                  src="/img/clientslogo/19.png"
                   width={1200}
                   height={1000}
                 />
@@ -256,7 +269,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/4.png"
+                  src="/img/clientslogo/20.png"
                   width={1200}
                   height={1000}
                 />
@@ -268,7 +281,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/5.png"
+                  src="/img/clientslogo/21.png"
                   width={1200}
                   height={1000}
                 />
@@ -283,7 +296,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/4.png"
+                  src="/img/clientslogo/22.png"
                   width={1200}
                   height={1000}
                 />
@@ -295,7 +308,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/5.png"
+                  src="/img/clientslogo/23.png"
                   width={1200}
                   height={1000}
                 />
@@ -308,7 +321,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/4.png"
+                  src="/img/clientslogo/24.png"
                   width={1200}
                   height={1000}
                 />
@@ -320,7 +333,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/5.png"
+                  src="/img/clientslogo/25.png"
                   width={1200}
                   height={1000}
                 />
@@ -333,7 +346,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/4.png"
+                  src="/img/clientslogo/26.png"
                   width={1200}
                   height={1000}
                 />
@@ -345,7 +358,7 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/5.png"
+                  src="/img/clientslogo/27.png"
                   width={1200}
                   height={1000}
                 />
@@ -358,198 +371,40 @@ export default function MarqueeSlider3() {
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/4.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/5.png"
+                  src="/img/clientslogo/28.png"
                   width={1200}
                   height={1000}
                 />
               </Link>
             </div>
 
-            {/* item */}
+             {/* item */}
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/4.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/5.png"
+                  src="/img/clientslogo/29.png"
                   width={1200}
                   height={1000}
                 />
               </Link>
             </div>
 
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/4.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/5.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
 
-            {/* item */}
+             {/* item */}
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
                 className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/4.png"
+                  src="/img/clientslogo/30.png"
                   width={1200}
                   height={1000}
                 />
               </Link>
             </div>
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/5.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/4.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/5.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/4.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/5.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                  alt="Image"
-                  src="/img/clientslogo/4.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                  alt="Image"
-                  src="/img/clientslogo/5.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-      
            
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/6.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
-            {/* item */}
-            <div className="clientcontainer">
-              <Link className="clientlogonew" href={`/team`}>
-                <Image
-                className="clientimage"
-                  alt="Image"
-                  src="/img/clientslogo/7.png"
-                  width={1200}
-                  height={1000}
-                />
-              </Link>
-            </div>
           </VelocityMarquee>
         </div>
         {/* Block - Marquee Images Two Lines End */}

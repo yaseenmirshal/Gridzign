@@ -1,6 +1,6 @@
 [
   {
-    "number": 50,
+    "number": 200,
     "suffix": "+",
     "description": "Happy clients who\ntrust my work",
     "image": "/img/illustrations/preview/star.webp",
@@ -21,9 +21,9 @@
     "colClass": "col-12 col-xl-5 mxd-stats-cards__item mxd-grid-item anim-uni-scale-in-right"
   },
   {
-    "number": 80,
-    "suffix": "%",
-    "description": "Clients come back for\na new projects",
+    "number": 95,
+    "suffix": "%+",
+    "description": "Client Retention Rate",
     "image": "/img/illustrations/preview/2phone.webp",
     "imageWidth": 800,
     "imageHeight": 800,
@@ -50,9 +50,9 @@
     "colClass": "col-12 col-xl-7 mxd-stats-cards__item mxd-grid-item anim-uni-scale-in-left"
   },
   {
-    "number": 5,
-    "suffix": "+",
-    "description": "Years of professional experience in designing digital products",
+    "number": 99.9,
+    "suffix": "%",
+    "description": "Uptime Across Deployed Systems",
     "image": "/img/illustrations/preview/robot.webp",
     "imageWidth": 800,
     "imageHeight": 800,
@@ -70,9 +70,9 @@
     "colClass": "col-12 col-xl-7 mxd-stats-cards__item mxd-grid-item anim-uni-scale-in-right"
   },
   {
-    "number": 70,
-    "suffix": "+",
-    "description": "Successfully\ncompleted projects",
+    "number": 100,
+    "suffix": "%",
+    "description": "SSL & Secure Deployment",
     "image": "/img/illustrations/preview/robot head.webp",
     "imageWidth": 800,
     "imageHeight": 800,

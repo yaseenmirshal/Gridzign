@@ -16,8 +16,9 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/8.png"
+                  src="/img/clientslogo/1.png"
                   width={1200}
                   height={1000}
                 />
@@ -28,8 +29,9 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/9.png"
+                  src="/img/clientslogo/2.png"
                   width={1200}
                   height={1000}
                 />
@@ -40,8 +42,9 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/10.png"
+                  src="/img/clientslogo/3.png"
                   width={1200}
                   height={1000}
                 />
@@ -52,8 +55,9 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/11.png"
+                  src="/img/clientslogo/4.png"
                   width={1200}
                   height={1000}
                 />
@@ -64,8 +68,9 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/12.png"
+                  src="/img/clientslogo/5.png"
                   width={1200}
                   height={1000}
                 />
@@ -75,8 +80,9 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/13.png"
+                  src="/img/clientslogo/6.png"
                   width={1200}
                   height={1000}
                 />
@@ -87,8 +93,9 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/14.png"
+                  src="/img/clientslogo/7.png"
                   width={1100}
                   height={1000}
                 />
@@ -101,8 +108,9 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/1.png"
+                  src="/img/clientslogo/8.png"
                   width={1200}
                   height={1000}
                 />
@@ -112,8 +120,9 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/2.png"
+                  src="/img/clientslogo/9.png"
                   width={1200}
                   height={1000}
                 />
@@ -124,13 +133,68 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                  className="clientimage"
                   alt="Image"
-                  src="/img/clientslogo/3.png"
+                  src="/img/clientslogo/10.png"
                   width={1200}
                   height={1000}
                 />
               </Link>
             </div>
+
+             {/* item */}
+            <div className="clientcontainer">
+              <Link className="clientlogonew" href={`/team`}>
+                <Image
+                  className="clientimage"
+                  alt="Image"
+                  src="/img/clientslogo/11.png"
+                  width={1200}
+                  height={1000}
+                />
+              </Link>
+            </div>
+
+              {/* item */}
+            <div className="clientcontainer">
+              <Link className="clientlogonew" href={`/team`}>
+                <Image
+                  className="clientimage"
+                  alt="Image"
+                  src="/img/clientslogo/12.png"
+                  width={1200}
+                  height={1000}
+                />
+              </Link>
+            </div>
+
+            {/* item */}
+            <div className="clientcontainer">
+              <Link className="clientlogonew" href={`/team`}>
+                <Image
+                  className="clientimage"
+                  alt="Image"
+                  src="/img/clientslogo/13.png"
+                  width={1200}
+                  height={1000}
+                />
+              </Link>
+            </div>
+
+            {/* item */}
+            <div className="clientcontainer">
+              <Link className="clientlogonew" href={`/team`}>
+                <Image
+                  className="clientimage"
+                  alt="Image"
+                  src="/img/clientslogo/14.png"
+                  width={1200}
+                  height={1000}
+                />
+              </Link>
+            </div>
+
+          
           </VelocityMarquee>
           {/* bottom line */}
           <VelocityMarquee className="marquee marquee--gsap">
@@ -141,6 +205,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                 className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -152,6 +217,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -164,6 +230,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                  className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -175,6 +242,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -187,6 +255,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -198,6 +267,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -212,6 +282,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -223,6 +294,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -235,6 +307,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -246,6 +319,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -258,6 +332,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -269,6 +344,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -281,6 +357,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -292,6 +369,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -304,6 +382,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -315,6 +394,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -327,6 +407,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -338,6 +419,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -350,6 +432,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -361,6 +444,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -373,6 +457,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -384,6 +469,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -396,6 +482,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/4.png"
                   width={1200}
@@ -407,6 +494,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/5.png"
                   width={1200}
@@ -443,6 +531,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/6.png"
                   width={1200}
@@ -454,6 +543,7 @@ export default function MarqueeSlider3() {
             <div className="clientcontainer">
               <Link className="clientlogonew" href={`/team`}>
                 <Image
+                className="clientimage"
                   alt="Image"
                   src="/img/clientslogo/7.png"
                   width={1200}

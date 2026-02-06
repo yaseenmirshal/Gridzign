@@ -27,12 +27,12 @@ export default function Header1() {
         <Link href={`/`} className="mxd-logo">
           {/* logo icon */}
           <Image
-  src="/img/icons/gridzign-logo-crop.png"
-  alt="GridZign"
-  width={100}
-  height={100}
-  className="w-30 h-20 rounded-lg"
-/>
+            src="/img/icons/gridzign-logo-crop.png"
+            alt="GridZign"
+            width={100}
+            height={100}
+            className="w-30 h-20 rounded-lg"
+          />
           {/* logo text */}
           {/* <span className="mxd-logo__text">
             GridZign
@@ -45,7 +45,7 @@ export default function Header1() {
 
         {pathname == "/" || pathname == "/preview" ? (
           <AnimatedButton
-            text="Ping Us"
+            text="Contact Us"
             className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
             href="/Contact"
             

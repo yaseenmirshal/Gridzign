@@ -97,6 +97,7 @@ export default function Hero() {
                 </div>
               </div>
             </div>
+            
           </div>
           <div className="mxd-hero-02-static__center">
             <div className="mxd-hero-02-marquee">
@@ -321,7 +322,7 @@ export default function Hero() {
                   type="text/css"
                   dangerouslySetInnerHTML={{
                     __html:
-                      "\n                    .icon-star-scroll {\n                      fill: var(--accent);\n                    }\n                  ",
+                      "\n                    .icon-star-scroll {\n                      fill: #6d9bdf;\n                    }\n                  ",
                   }}
                 />
                 <path

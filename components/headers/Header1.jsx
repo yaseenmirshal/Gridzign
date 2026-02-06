@@ -27,7 +27,7 @@ export default function Header1() {
         <Link href={`/`} className="mxd-logo">
           {/* logo icon */}
           <Image
-  src="/img/icons/gridzign-logo.png"
+  src="/img/icons/gridzign-logo-crop.png"
   alt="GridZign"
   width={100}
   height={100}

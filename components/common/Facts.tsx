@@ -44,7 +44,7 @@ export default function Facts() {
                                       type="text/css"
                                       dangerouslySetInnerHTML={{
                                         __html:
-                                          "\n                                .icon-star {\n                                  fill: var(--additional);\n                                }\n                              ",
+                                          "\n                                .icon-star {\n                                  fill: #6d9bdf;\n                                }\n                              ",
                                       }}
                                     />
                                     <path

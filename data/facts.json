@@ -29,14 +29,14 @@
     "imageHeight": 800,
     "avatars": [
       {
-        "src": "/img/avatars/300x300_ava-02.webp",
+        "src": "https://i.ibb.co/MkwrXPTG/34635235262-1.webp",
         "alt": "Avatar",
         "width": 300,
         "height": 300
       },
       { "svg": true },
       {
-        "src": "/img/avatars/300x300_ava-01.webp",
+        "src": "https://i.ibb.co/2Yv39PdJ/34635235262.webp",
         "alt": "Avatar",
         "width": 300,
         "height": 300

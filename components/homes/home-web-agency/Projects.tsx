@@ -133,13 +133,22 @@ export default function Projects() {
                     </g>
                   </AnimateRotation>
                   {/* image */}
-                  <Image
-                    className="btn-rotating__image"
-                    alt="Object"
-                    src="/img/icons/300x300_obj-btn-03.webp"
-                    width={300}
-                    height={300}
-                  />
+                  <svg
+  className="btn-rotating__image"
+  width="40"
+  height="40"
+  viewBox="0 0 24 24"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M7 17L17 7M17 7H9M17 7V15"
+    stroke="currentColor"
+    strokeWidth="2"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+  />
+</svg>
                 </Link>
               </div>
               {/* Portfolio Link End */}

@@ -47,12 +47,7 @@ export default function Header1() {
           <AnimatedButton
             text="Contact Us"
             className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
-<<<<<<< HEAD
-            href="/Contact"
-=======
             href="/contact"
->>>>>>> 6659608 (Initial commit)
-            
           >
            <i className="ph-bold ph-arrow-right" />
           </AnimatedButton>

@@ -86,11 +86,7 @@ export default function Hero() {
                 <div className="row g-0">
                   <div className="col-12 col-xl-6 mxd-grid-item no-margin">
                     <div className="hero-02-static__caption loading__item">
-<<<<<<< HEAD
                       <p className="t-large t-medium t-120 t-bright">
-=======
-                      <p className=" t-medium t-120 t-bright">
->>>>>>> 6659608 (Initial commit)
                         Engineering Digital Excellences
                       </p>
                       <p className="t-large t-medium t-120 t-muted">
@@ -146,11 +142,7 @@ export default function Hero() {
                   </div>
                   {/* single item */}
                   <div className="marquee__item one-line item-regular text">
-<<<<<<< HEAD
                     <p className="marquee__text">Designing The Digital Grid</p>
-=======
-                    <p className="marquee__text"> Dèsigning Thè Digitàl Grid</p>
->>>>>>> 6659608 (Initial commit)
                     <div className="marquee__image">
                       <svg
                         className="mxd-pulse"
@@ -280,11 +272,7 @@ export default function Hero() {
               staticAnimRefs.current[2] = el;
             }}
           >
-<<<<<<< HEAD
-            <a href="#" className="btn-rotating btn-rotating-160">
-=======
             <a href="/contact" className="btn-rotating btn-rotating-160">
->>>>>>> 6659608 (Initial commit)
               {/* SVG rotating text */}
               <svg
                 version="1.1"

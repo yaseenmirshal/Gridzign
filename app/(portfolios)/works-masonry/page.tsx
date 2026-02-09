@@ -20,14 +20,8 @@ export default function WorksMasonryPage() {
         className="mxd-page-content inner-page-content"
       >
         <PortfolioMasonry />
-<<<<<<< HEAD
         <ParallaxDivider /> <MarqueeSlider />
         <Testimonials />
-=======
-        {/* <ParallaxDivider /> */}
-         {/* <MarqueeSlider /> */}
-        {/* <Testimonials /> */}
->>>>>>> 6659608 (Initial commit)
         <Cta />
       </main>
       <Footer2 />

@@ -20,23 +20,10 @@ export default function PortfolioMasonry() {
                 itemSelector=".mxd-projects-masonry__item"
               >
                 {/* portfolio gallery title */}
-<<<<<<< HEAD
+
                 <div className="col-12 col-xl-6 mxd-projects-masonry__item mxd-projects-masonry__title headline-title">
-=======
-                {/* <div className="col-12 col-xl-6 mxd-projects-masonry__item mxd-projects-masonry__title headline-title">
->>>>>>> 6659608 (Initial commit)
-                  <div className="mxd-block__inner-headline">
-                    <h1 className="inner-headline__title headline-img-before headline-img-07">
-                      Projects
-                      <br />
-                      to explore
-                    </h1>
-                  </div>
-<<<<<<< HEAD
                 </div>
-=======
-                </div> */}
->>>>>>> 6659608 (Initial commit)
+
                 {/* portfolio gallery single item */}
                 {projects1.map((item, index) => (
                   <div
@@ -74,7 +61,7 @@ export default function PortfolioMasonry() {
               </MasonryGrid>
               {/* Portfolio Gallery End */}
               {/* Portfolio Link Start */}
-<<<<<<< HEAD
+
               <div className="mxd-projects-masonry__btngroup anim-uni-in-up">
                 <Link
                   className="btn-rotating btn-rotating-180 ver-02"
@@ -122,9 +109,7 @@ export default function PortfolioMasonry() {
                   />
                 </Link>
               </div>
-=======
-             
->>>>>>> 6659608 (Initial commit)
+
               {/* Portfolio Link End */}
             </div>
           </div>

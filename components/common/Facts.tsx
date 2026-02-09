@@ -1,17 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
-<<<<<<< HEAD
-=======
 import React from "react";
->>>>>>> 6659608 (Initial commit)
 
 import factsData from "@/data/facts.json";
 import Counter from "@/components/common/Counter";
 import AnimatedButton from "../animation/AnimatedButton";
-<<<<<<< HEAD
-import React from "react";
-=======
->>>>>>> 6659608 (Initial commit)
 
 export default function Facts() {
   return (
@@ -25,7 +18,6 @@ export default function Facts() {
                 {factsData.map((item, idx) => (
                   <div className={item.colClass} key={idx}>
                     <div className={item.cardClass}>
-<<<<<<< HEAD
                       {item.avatars ? (
                         <div className="mxd-stats-cards__btngroup">
                           <div className="mxd-avatars">
@@ -81,30 +73,6 @@ export default function Facts() {
                           </div>
                         </div>
                       ) : null}
-=======
-                      {/* Avatars */}
-                      {item.avatars && (
-                        <div className="mxd-stats-cards__btngroup">
-                          <div className="mxd-avatars">
-                            {item.avatars.map((avatar, aIdx) => (
-                              <div
-                                className="mxd-avatars__item"
-                                key={aIdx}
-                              >
-                                <Image
-                                  alt={avatar.alt || "Avatar"}
-                                  src={avatar.src}
-                                  width={avatar.width || 60}
-                                  height={avatar.height || 60}
-                                />
-                              </div>
-                            ))}
-                          </div>
-                        </div>
-                      )}
-
-                      {/* Counter */}
->>>>>>> 6659608 (Initial commit)
                       <div
                         className={
                           item.counterId.includes("2")
@@ -117,15 +85,9 @@ export default function Facts() {
                             max={item.number}
                             parentClass={item.numberClass}
                           />
-<<<<<<< HEAD
 
                           {item.suffix}
                         </p>
-=======
-                          {item.suffix}
-                        </p>
-
->>>>>>> 6659608 (Initial commit)
                         <p className={item.descrClass}>
                           {item.description.split("\n").map((line, i) => (
                             <React.Fragment key={i}>
@@ -138,13 +100,8 @@ export default function Facts() {
                           ))}
                         </p>
                       </div>
-<<<<<<< HEAD
                       {item.button ? (
-=======
 
-                      {/* Button */}
-                      {item.button && (
->>>>>>> 6659608 (Initial commit)
                         <div className="mxd-stats-cards__btngroup">
                           <AnimatedButton
                             text={item.button.text}
@@ -154,13 +111,7 @@ export default function Facts() {
                             <i className={item.button.iconClass} />
                           </AnimatedButton>
                         </div>
-<<<<<<< HEAD
                       ) : null}
-=======
-                      )}
-
-                      {/* Illustration */}
->>>>>>> 6659608 (Initial commit)
                       <div className={item.imageClass}>
                         <Image
                           alt="Illustration"

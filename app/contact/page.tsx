@@ -22,13 +22,21 @@ export default function ContactPage() {
       >
         <PageTitle />
         <ContactForm />
+<<<<<<< HEAD
         <div className="mxd-section padding-grid-pre-mtext">
+=======
+        {/* <div className="mxd-section padding-grid-pre-mtext">
+>>>>>>> 6659608 (Initial commit)
           <div className="mxd-container">
             <div className="mxd-divider">
               <BackgroundParallax className="mxd-divider__image divider-image-3 parallax-img" />
             </div>
           </div>
+<<<<<<< HEAD
         </div>
+=======
+        </div> */}
+>>>>>>> 6659608 (Initial commit)
         <div className="mxd-section padding-mtext">
           <div className="mxd-container fullwidth-container">
             {/* Block - Marquee Text One Line Start */}

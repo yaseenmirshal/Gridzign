@@ -269,6 +269,12 @@ export default function Footer2() {
             <div className="footer-blocks__links anim-uni-in-up">
               <p className="t-xsmall t-muted">
               Gridzign © 2026 
+<<<<<<< HEAD
+=======
+
+              </p>
+              <p className="t-xsmall t-muted">
+>>>>>>> 6659608 (Initial commit)
               <Link target="_blank" href="https://hostimpress.com/" >
              Together with Hostimpress
               </Link>

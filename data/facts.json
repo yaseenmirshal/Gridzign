@@ -16,15 +16,25 @@
     "cardClass": "mxd-stats-cards__inner align-end bg-accent radius-m padding-4",
     "counterId": "stats-counter-1",
     "numberClass": "mxd-counter__number mxd-stats-number opposite",
+<<<<<<< HEAD
     "descrClass": "mxd-counter__descr t-140 t-bright opposite",
+=======
+    "descrClass": "mxd-counter__descr t-140  t-bright opposite",
+>>>>>>> 6659608 (Initial commit)
     "imageClass": "mxd-stats-cards__image mxd-stats-cards-image-1",
     "colClass": "col-12 col-xl-5 mxd-stats-cards__item mxd-grid-item anim-uni-scale-in-right"
   },
   {
     "number": 95,
+<<<<<<< HEAD
     "suffix": "%+",
     "description": "Client Retention Rate",
     "image": "/img/illustrations/preview/2phone.webp",
+=======
+    "suffix": "%",
+    "description": "Client Retention Rate",
+    "image": "/img/illustrations/preview/phonemobile.png",
+>>>>>>> 6659608 (Initial commit)
     "imageWidth": 800,
     "imageHeight": 800,
     "avatars": [
@@ -34,13 +44,30 @@
         "width": 300,
         "height": 300
       },
+<<<<<<< HEAD
       { "svg": true },
+=======
+     
+      {
+        "src": "https://i.ibb.co/C3bcKJkp/34635235262-2.webp",
+        "alt": "Avatar",
+        "width": 300,
+        "height": 300
+      },
+      
+>>>>>>> 6659608 (Initial commit)
       {
         "src": "https://i.ibb.co/2Yv39PdJ/34635235262.webp",
         "alt": "Avatar",
         "width": 300,
         "height": 300
       }
+<<<<<<< HEAD
+=======
+      
+      
+      
+>>>>>>> 6659608 (Initial commit)
     ],
     "cardClass": "mxd-stats-cards__inner align-end bg-base-tint radius-m padding-4",
     "counterId": "stats-counter-2",

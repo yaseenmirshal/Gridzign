@@ -27,7 +27,7 @@ export default function BlogPages() {
                     </span>
                   </div>
                   <p>
-                    A blog that looks good, reads better, and brings your
+                    A blog that looks good, reads better, and bring your
                     stories to life beautifully.
                   </p>
                 </div>

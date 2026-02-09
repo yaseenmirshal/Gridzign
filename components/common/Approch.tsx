@@ -22,7 +22,7 @@ export default function Approch() {
                 </div>
                 <div className="col-12 col-xl-3 mxd-grid-item no-margin">
                   <div className="mxd-section-title__hrdescr">
-                    <p className="anim-uni-in-up">Designs</p>
+                    <p className="anim-uni-in-up">Design</p>
                     <p className="anim-uni-in-up">Development</p>
                     <p className="anim-uni-in-up">Mastership</p>
                   </div>

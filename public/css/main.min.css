@@ -357,15 +357,9 @@
 
 
 .clientlogonew{
-<<<<<<< HEAD
   /* width: 60rem ; */
   /* border-radius: 0.5rem; */
   opacity : 0.6;
-
-}
-
-=======
-  opacity : 0.4;
 
 }
 
@@ -375,7 +369,6 @@
   }
 }
 
->>>>>>> 6659608 (Initial commit)
 .about-image-1 {
   background-image: url(/img/avatars/1400x1400_ava-01.webp);
 }
@@ -386,11 +379,7 @@
   background-image: url(/img/illustrations/1920x1080_divider-02.webp);
 }
 .divider-image-3 {
-<<<<<<< HEAD
-  background-image: url(/img/illustrations/1920x1080_divider-03.webp);
-=======
   background-image: url(https://www.edmany-consult.com/wp-content/uploads/2024/07/360_F_589925063_ecQvtkwNAEnB7Nd9ad3hM7GOP0lae694.jpg);
->>>>>>> 6659608 (Initial commit)
 }
 .divider-image-4 {
   background-image: url(/img/illustrations/1920x1080_divider-04.webp);
@@ -535,11 +524,7 @@ textarea {
   background-color: var(--base-shade);
 }
 ::-webkit-scrollbar-thumb {
-<<<<<<< HEAD
-  background-color: var(--accent);
-=======
   background-color: #6d9bdf;
->>>>>>> 6659608 (Initial commit)
   border-radius: var(--_radius-s);
 }
 html {
@@ -554,12 +539,8 @@ body {
   position: relative;
   width: 100%;
   min-width: 360px;
-<<<<<<< HEAD
-  overflow-x: unset !important;
-=======
   overflow-x: hidden;
 overflow-y: auto;
->>>>>>> 6659608 (Initial commit)
   font: normal 400 var(--_size) / 1.6 var(--_font-default);
   text-rendering: optimizeLegibility;
   background-color: var(--base);
@@ -4251,20 +4232,10 @@ form textarea:required:valid {
   -ms-flex-pack: left;
   justify-content: left;
   gap: 1rem;
-<<<<<<< HEAD
- 
-}
-
-
-.bg-accent{
-
-}
-=======
   
  
 }
 
->>>>>>> 6659608 (Initial commit)
 @media only screen and (min-width: 768px) {
   .mxd-logo {
     gap: 1.4rem;
@@ -4272,20 +4243,12 @@ form textarea:required:valid {
 }
 .mxd-logo__image {
   display: block;
-<<<<<<< HEAD
-  width: 4.6rem;
-=======
   width: 1.6rem;
->>>>>>> 6659608 (Initial commit)
   height: auto;
 }
 @media only screen and (min-width: 768px) {
   .mxd-logo__image {
-<<<<<<< HEAD
-    width: 5.6rem;
-=======
     width: 1.6rem;
->>>>>>> 6659608 (Initial commit)
   }
 }
 .mxd-logo__text {
@@ -4854,78 +4817,8 @@ form textarea:required:valid {
 }
 .mxd-counter__descr {
   max-width: 250px;
-<<<<<<< HEAD
-=======
-  text-align: right;
->>>>>>> 6659608 (Initial commit)
-}
-.mxd-btngroup {
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -moz-box-orient: vertical;
-  -moz-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  gap: 1rem;
-}
-.mxd-btngroup.centered {
-  -webkit-box-pack: center;
-  -moz-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-@media only screen and (min-width: 576px) {
-  .mxd-btngroup {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -moz-box-orient: horizontal;
-    -moz-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    gap: 2rem;
-  }
-}
-.mxd-divider {
-  position: relative;
-  -moz-border-radius: var(--_radius-l);
-  border-radius: var(--_radius-l);
-  overflow: hidden;
-  height: 460px;
-}
-@media only screen and (min-width: 768px) {
-  .mxd-divider {
-    height: 600px;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .mxd-divider {
-    height: 760px;
-  }
-  .mxd-divider.divider-hero-01 {
-    padding-top: 14rem;
-  }
-}
-@media only screen and (min-width: 1600px) {
-  .mxd-divider {
-    height: 930px;
-  }
-}
-.mxd-divider__image {
-  position: relative;
-  width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  height: 460px;
-=======
   height: 260px ;
->>>>>>> 6659608 (Initial commit)
-=======
   height: 460px;
->>>>>>> 3753044 (huge update)
   background-repeat: no-repeat;
   background-position: center;
   -moz-background-size: cover;
@@ -4934,15 +4827,8 @@ form textarea:required:valid {
 }
 .mxd-divider__image img {
   width: 100%;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  height: 100%;
-=======
   height: 160px;
->>>>>>> 6659608 (Initial commit)
-=======
   height: 100%;
->>>>>>> 3753044 (huge update)
   -o-object-fit: cover;
   object-fit: cover;
 }
@@ -8072,24 +7958,17 @@ form textarea:required:valid {
   }
 }
 .hero-02-static__caption {
-<<<<<<< HEAD
-  margin-top: 2rem;
-=======
   position: absolute;
   font-size: 15px;
   margin-top: 3rem;
   right: 6vw;       /* pushes it to the right */
   text-align: right;
   z-index: 20;
->>>>>>> 6659608 (Initial commit)
 }
 @media only screen and (min-width: 768px) {
   .hero-02-static__caption {
     margin-top: 3rem;
-<<<<<<< HEAD
-=======
    
->>>>>>> 6659608 (Initial commit)
   }
 }
 .mxd-hero-02-static__bottom {

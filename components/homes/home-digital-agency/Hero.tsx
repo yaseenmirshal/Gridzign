@@ -117,8 +117,8 @@ export default function Hero() {
                 >
                   {/* single item */}
                   <div className="marquee__item one-line item-regular text">
-                    <p className="marquee__text">Designing The Digital Grid</p>
-                    <div className="marquee__image">
+                    <p className="marquee__text">Dèsigning Thè Digitàl Grid</p>
+                    <div className="marquee__image mr-24">
                       <svg
                         className="mxd-pulse"
                         version="1.1"
@@ -142,8 +142,8 @@ export default function Hero() {
                   </div>
                   {/* single item */}
                   <div className="marquee__item one-line item-regular text">
-                    <p className="marquee__text">Designing The Digital Grid</p>
-                    <div className="marquee__image">
+                    <p className="marquee__text">Dèsigning Thè Digitàl Grid</p>
+                    <div className="marquee__image mr-24">
                       <svg
                         className="mxd-pulse"
                         version="1.1"
@@ -167,10 +167,10 @@ export default function Hero() {
                   </div>
                   {/* single item */}
                   <div className="marquee__item one-line item-regular text">
-                    <p className="marquee__text"> Dèsigning Thè Digitàl Grid</p>
-                    <div className="marquee__image">
+                    <p className="marquee__text">Dèsigning Thè Digitàl Grid</p>
+                    <div className="marquee__image mr-24">
                       <svg
-                        className="mxd-pulse"
+                        className="mxd-pulse "
                         version="1.1"
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 80 80"

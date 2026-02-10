@@ -18,7 +18,7 @@ type VelocityMarqueeProps = {
 
 export default function VelocityMarquee({
   className,
-  duration = 80,
+  duration = 35,
   direction = "right",
   minScale = 1,
   maxScale = 6,

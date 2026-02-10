@@ -4816,7 +4816,6 @@ form textarea:required:valid {
   }
 }
 .mxd-counter__descr {
-  text-align: right;
   max-width: 250px;
   height: 260px ;
   height: 460px;
@@ -4825,6 +4824,16 @@ form textarea:required:valid {
   -moz-background-size: cover;
   background-size: cover;
   overflow: hidden;
+}
+
+.avatar-number {
+  margin-top: 300px; /* desktop */
+}
+
+@media (max-width: 768px) {
+  .avatar-number {
+    margin-top: 10px; /* mobile */
+  }
 }
 .mxd-divider__image img {
   width: 100%;
@@ -6018,8 +6027,6 @@ form textarea:required:valid {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -moz-box-orient: vertical;
@@ -6031,9 +6038,6 @@ form textarea:required:valid {
 @media only screen and (min-width: 1200px) {
   .menu-promo__content {
     position: absolute;
-    display: flex;
-  flex-direction: column;
-  align-items: flex-start;
     right: 0;
     bottom: 0;
     -webkit-box-align: end;
@@ -6048,9 +6052,6 @@ form textarea:required:valid {
 @media only screen and (min-width: 1600px) {
   .menu-promo__content {
     padding: 0 7rem;
-    display: flex;
-  flex-direction: column;
-  align-items: flex-start;
   }
 }
 .menu-promo__caption {
@@ -15176,12 +15177,14 @@ form textarea:required:valid {
 @media only screen and (min-width: 1200px) {
   .hover-reveal__content {
     display: block;
+    
   }
 }
 @media only screen and (min-width: 1600px) {
   .hover-reveal__content.hover-reveal-260x260 {
     width: 260px;
     height: 260px;
+    
   }
 }
 .hover-reveal__image {

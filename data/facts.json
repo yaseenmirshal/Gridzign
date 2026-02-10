@@ -4,7 +4,6 @@
     "suffix": "+",
     "description": "Happy clients who\ntrust my work",
     "image": "/img/illustrations/preview/star.webp",
-
     "imageWidth": 800,
     "imageHeight": 800,
     "button": {
@@ -22,7 +21,7 @@
   },
   {
     "number": 95,
-    "suffix": "%+",
+    "suffix": "%",
     "description": "Client Retention Rate",
     "image": "/img/illustrations/preview/phonemobile.png",
     "imageWidth": 800,
@@ -34,13 +33,12 @@
         "width": 300,
         "height": 300
       },
-        {
-        "src": "https://i.ibb.co/DH9JfGxP/34635235262-2.webp",
+      {
+        "src": "https://i.ibb.co/C3bcKJkp/34635235262-2.webp",
         "alt": "Avatar",
         "width": 300,
         "height": 300
       },
-      
       {
         "src": "https://i.ibb.co/2Yv39PdJ/34635235262.webp",
         "alt": "Avatar",
@@ -50,14 +48,14 @@
     ],
     "cardClass": "mxd-stats-cards__inner align-end bg-base-tint radius-m padding-4",
     "counterId": "stats-counter-2",
-    "numberClass": "mxd-counter__number mxd-stats-number",
+    "numberClass": "mxd-counter__number mxd-stats-number avatar-number",
     "descrClass": "mxd-counter__descr t-140 t-bright",
     "imageClass": "mxd-stats-cards__image mxd-stats-cards-image-2",
     "colClass": "col-12 col-xl-7 mxd-stats-cards__item mxd-grid-item anim-uni-scale-in-left"
   },
   {
     "number": 99.9,
-    "suffix": "%",
+    "suffix": "%",  
     "description": "Uptime Across Deployed Systems",
     "image": "/img/illustrations/preview/robot.webp",
     "imageWidth": 800,

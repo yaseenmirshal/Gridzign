@@ -6017,6 +6017,8 @@ form textarea:required:valid {
   display: -moz-box;
   display: -ms-flexbox;
   display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -moz-box-orient: vertical;
@@ -6028,6 +6030,9 @@ form textarea:required:valid {
 @media only screen and (min-width: 1200px) {
   .menu-promo__content {
     position: absolute;
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
     right: 0;
     bottom: 0;
     -webkit-box-align: end;
@@ -6042,6 +6047,9 @@ form textarea:required:valid {
 @media only screen and (min-width: 1600px) {
   .menu-promo__content {
     padding: 0 7rem;
+    display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   }
 }
 .menu-promo__caption {
@@ -6069,7 +6077,7 @@ form textarea:required:valid {
     padding: 1rem;
     -moz-border-radius: var(--_radius-m);
     border-radius: var(--_radius-m);
-    background-color: var(--base-opp);
+    /* background-color: var(--base-opp); */
   }
 }
 .menu-video {

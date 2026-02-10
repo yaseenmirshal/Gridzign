@@ -91,7 +91,7 @@ export default function Blogs({
                   <Link className="mxd-blog-preview__media" href={`/blog-article`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
-                        src="https://i.ibb.co/rKg1zkqP/119984.jpg"
+                        src="https://i.ibb.co/jkKXtFgw/wooden-letters-magnifying-glass-and-clips-on-ligh-2026-01-09-07-43-43-utc.webp"
                         alt="Blog 2"
                         fill
                         className="object-cover"

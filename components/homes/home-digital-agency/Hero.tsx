@@ -284,7 +284,7 @@ export default function Hero() {
                 viewBox="0 0 160 160"
                 enableBackground={"new 0 0 160 160"}
                 xmlSpace="preserve"
-                className="btn-rotating__text mxd-rotate"
+                className="btn-rotating__text mxd-rotate-slow"
                 data-value={360}
               >
                 <defs>

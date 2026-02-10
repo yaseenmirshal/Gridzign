@@ -206,6 +206,17 @@ export default function MobileMenu() {
             {/* RIGHT */}
             <div className="mxd-menu__right">
               <div className="menu-promo__content">
+                  <p
+                  className="menu-promo__caption fade-in-elm"
+                  style={{ transitionDelay: "0.4s" }}
+                >
+                  We bring concepts to life
+                  with precision, innovation,
+                  and scalability. Each project
+                  reflects our commitment to
+                  quality, usability, and
+                  business growth.
+                </p>
                 <Image
                   src="https://i.ibb.co/7J2SSg3j/2150010127.jpg"
                   alt="GridZign"
@@ -215,13 +226,7 @@ export default function MobileMenu() {
                   style={{ borderRadius: "35px", transitionDelay: "0.3s" }}
                 />
 
-                <p
-                  className="menu-promo__caption fade-in-elm"
-                  style={{ transitionDelay: "0.4s" }}
-                >
-                  We bring concepts to life with precision, innovation, and
-                  scalability.
-                </p>
+              
               </div>
             </div>
 

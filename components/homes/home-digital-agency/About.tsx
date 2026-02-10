@@ -36,7 +36,7 @@ export default function About() {
                       <AnimatedButton
                         text="Inside Gridzign"
                         className="btn btn-anim btn-default btn-outline slide-right-up"
-                        href={`/about-us`}
+                        href={`/contact`}
                       >
                         <i className="ph-bold ph-arrow-up-right" />
                       </AnimatedButton>

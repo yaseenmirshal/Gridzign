@@ -42,7 +42,7 @@ export default function Blogs({
                     <AnimatedButton
                       text="All Articles"
                       className="btn btn-anim btn-default btn-outline slide-right-up"
-                      href={`/blog-standard`}
+                      href={`/contact`}
                     >
                       <i className="ph-bold ph-arrow-up-right" />
                     </AnimatedButton>
@@ -74,13 +74,13 @@ export default function Blogs({
                    
 
                     <div className="mxd-blog-preview__tags">
-                      <span className="tag tag-default tag-permanent">Design</span>
-                      <span className="tag tag-default tag-permanent">UI/UX</span>
+                      <span className="tag tag-default tag-permanent">Sales</span>
+                      <span className="tag tag-default tag-permanent">Boost</span>
                     </div>
                   </Link>
 
                   <div className="mxd-blog-preview__data">
-                    <Link  href={`/blog-article`}>
+                    <Link  href={`/contact`}>
                       Why Every Business Needs an <span>E-Commerce </span> Website in Today’s Digital World 
                     </Link>
                   </div>
@@ -101,13 +101,13 @@ export default function Blogs({
                   
 
                     <div className="mxd-blog-preview__tags">
-                      <span className="tag tag-default tag-permanent">Tech</span>
-                      <span className="tag tag-default tag-permanent">Next.js</span>
+                      <span className="tag tag-default tag-permanent">Visibility</span>
+                      <span className="tag tag-default tag-permanent">Impact</span>
                     </div>
                   </Link>
 
                   <div className="mxd-blog-preview__data">
-                    <Link  href={`/blog-article`}>
+                    <Link  href={`/contact`}>
                       Why <span>SEO</span> is Crucial for Every Business in the Digital Age
                     </Link>
                   </div>
@@ -127,13 +127,13 @@ export default function Blogs({
 
 
                     <div className="mxd-blog-preview__tags">
-                      <span className="tag tag-default tag-permanent">Branding</span>
-                      <span className="tag tag-default tag-permanent">Creative</span>
+                      <span className="tag tag-default tag-permanent">Digital Presence</span>
+                      <span className="tag tag-default tag-permanent">Identity</span>
                     </div>
                   </Link>
 
                   <div className="mxd-blog-preview__data">
-                    <Link  href={`/blog-article`}>
+                    <Link  href={`/contact`}>
                       Why Every Business Needs a <span>Website</span> in the Digital Era
                     </Link>
                   </div>

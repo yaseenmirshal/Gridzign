@@ -62,53 +62,7 @@ export default function PortfolioMasonry() {
               {/* Portfolio Gallery End */}
               {/* Portfolio Link Start */}
 
-              <div className="mxd-projects-masonry__btngroup anim-uni-in-up">
-                <Link
-                  className="btn-rotating btn-rotating-180 ver-02"
-                  href={`/contact`}
-                >
-                  {/* SVG rotating text */}
-                  <AnimateRotation
-                    as="svg"
-                    version="1.1"
-                    id="scrollDown"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 160 160"
-                    enableBackground={"new 0 0 160 160"}
-                    xmlSpace="preserve"
-                    className="btn-rotating__text animate-rotation"
-                    value={360}
-                  >
-                    <defs>
-                      <path
-                        id="textPath"
-                        d="M149.7,80c0,38.5-31.2,69.7-69.7,69.7S10.3,118.5,10.3,80S41.5,10.3,80,10.3S149.7,41.5,149.7,80z"
-                      />
-                    </defs>
-                    <g>
-                      <use xlinkHref="#textPath" fill="none" />
-                      <text>
-                        {/* button text here!!! */}
-                        <textPath xlinkHref="#textPath">
-                          Let&apos;s start new project * Let&apos;s start new
-                          project *
-                        </textPath>
-                      </text>
-                    </g>
-                  </AnimateRotation>
-                  {/* image */}
-                  <Image
-                    className="btn-rotating__image"
-                    alt="Object"
-                    src="/img/icons/300x300_obj-btn-03.webp"
-                    width={300}
-                    height={300}
-                  />
-                </Link>
-              </div>
+             
 
               {/* Portfolio Link End */}
             </div>

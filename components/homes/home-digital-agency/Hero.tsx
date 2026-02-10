@@ -86,12 +86,12 @@ export default function Hero() {
                 <div className="row g-0">
                   <div className="col-12 col-xl-6 mxd-grid-item no-margin">
                     <div className="hero-02-static__caption loading__item">
-                      <p className="t-large t-medium t-120 t-bright">
-                        Engineering Digital Excellences
-                      </p>
-                      <p className="t-large t-medium t-120 t-muted">
-                        The Drive Growth
-                      </p>
+                      <p className="text-xxl sm:text-2xl lg:text-5xl font-medium text-white">
+    Engineering Digital Excellences
+  </p>
+ <p className="text-xxl sm:text-2xl lg:text-5xl mt-0 sm:!mt-3 font-medium text-gray-400">
+    The Drive Growth
+  </p>
                     </div>
                   </div>
                 </div>

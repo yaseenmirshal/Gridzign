@@ -8,9 +8,9 @@ import Testimonials from "@/components/common/Testimonials";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Work Masonry || Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "GridZign - Works Masonry",
   description:
-    "Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Explore our portfolio of innovative design and development projects, showcasing our expertise in creating visually stunning and user-friendly digital experiences. From concept to execution, our works masonry highlights our commitment to excellence and creativity in every project we undertake.",
 };
 export default function WorksMasonryPage() {
   return (
@@ -20,8 +20,9 @@ export default function WorksMasonryPage() {
         className="mxd-page-content inner-page-content"
       >
         <PortfolioMasonry />
-        <ParallaxDivider /> <MarqueeSlider />
-        <Testimonials />
+        {/* <ParallaxDivider />  */}
+        {/* <MarqueeSlider /> */}
+        {/* <Testimonials /> */}
         <Cta />
       </main>
       <Footer2 />

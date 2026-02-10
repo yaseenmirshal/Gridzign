@@ -31,7 +31,7 @@ export default function Header1() {
             alt="GridZign"
             width={100}
             height={100}
-            className="w-30 h-20 rounded-lg"
+            
           />
           {/* logo text */}
           {/* <span className="mxd-logo__text">

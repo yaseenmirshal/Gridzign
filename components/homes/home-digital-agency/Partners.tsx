@@ -11,7 +11,7 @@ export default function Partners() {
               <div className="row g-0">
                 {/* item */}
                 <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
-                  <a className="mxd-partners-cards__inner" href="#">
+                  <a className="mxd-partners-cards__inner" href="/contact">
                     <div className="mxd-partners-cards__logo">
                       <Image
                         alt="Partner Logo"
@@ -24,7 +24,7 @@ export default function Partners() {
                 </div>
                 {/* item */}
                 <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
-                  <a className="mxd-partners-cards__inner" href="#">
+                  <a className="mxd-partners-cards__inner" href="/contact">
                     <div className="mxd-partners-cards__logo">
                       <Image
                         alt="Partner Logo"
@@ -37,7 +37,7 @@ export default function Partners() {
                 </div>
                 {/* item */}
                 <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
-                  <a className="mxd-partners-cards__inner" href="#">
+                  <a className="mxd-partners-cards__inner" href="/contact">
                     <div className="mxd-partners-cards__logo">
                       <Image
                         alt="Partner Logo"
@@ -50,7 +50,7 @@ export default function Partners() {
                 </div>
                 {/* item */}
                 <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
-                  <a className="mxd-partners-cards__inner" href="#">
+                  <a className="mxd-partners-cards__inner" href="/contact">
                     <div className="mxd-partners-cards__logo">
                       <Image
                         alt="Partner Logo"
@@ -63,7 +63,7 @@ export default function Partners() {
                 </div>
                 {/* item */}
                 <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
-                  <a className="mxd-partners-cards__inner" href="#">
+                  <a className="mxd-partners-cards__inner" href="/contact">
                     <div className="mxd-partners-cards__logo">
                       <Image
                         alt="Partner Logo"
@@ -76,7 +76,7 @@ export default function Partners() {
                 </div>
                 {/* item */}
                 <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
-                  <a className="mxd-partners-cards__inner" href="#">
+                  <a className="mxd-partners-cards__inner" href="/contact">
                     <div className="mxd-partners-cards__logo">
                       <Image
                         alt="Partner Logo"
@@ -89,7 +89,7 @@ export default function Partners() {
                 </div>
                 {/* item */}
                 <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
-                  <a className="mxd-partners-cards__inner" href="#">
+                  <a className="mxd-partners-cards__inner" href="/contact">
                     <div className="mxd-partners-cards__logo">
                       <Image
                         alt="Partner Logo"
@@ -102,7 +102,7 @@ export default function Partners() {
                 </div>
                 {/* item */}
                 <div className="col-12 col-md-6 col-xl-3 mxd-partners-cards__item mxd-grid-item animate-card-4">
-                  <a className="mxd-partners-cards__inner" href="#">
+                  <a className="mxd-partners-cards__inner" href="/contact">
                     <div className="mxd-partners-cards__logo">
                       <Image
                         alt="Partner Logo"

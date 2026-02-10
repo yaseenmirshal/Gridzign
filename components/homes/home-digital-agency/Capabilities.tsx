@@ -54,7 +54,7 @@ export default function Capabilities() {
                   <div className="mxd-section-title__hrdescr">
                     <p className="anim-uni-in-up">Design</p>
                     <p className="anim-uni-in-up">Development</p>
-                    <p className="anim-uni-in-up">Mastership</p>
+                    <p className="anim-uni-in-up">Deployment</p>
                   </div>
                 </div>
                 <div className="col-12 col-xl-3 mxd-grid-item no-margin">

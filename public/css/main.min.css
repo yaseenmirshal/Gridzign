@@ -4232,13 +4232,17 @@ form textarea:required:valid {
   -ms-flex-pack: left;
   justify-content: left;
   gap: 1rem;
+  width: 250px;
+  height: auto;
+  border-radius: 20px
   
  
 }
 
-@media only screen and (min-width: 768px) {
-  .mxd-logo {
+@media only screen and (max-width: 767px) {
+ .mxd-logo {
     gap: 1.4rem;
+    width: 130px;
   }
 }
 .mxd-logo__image {
@@ -4827,7 +4831,7 @@ form textarea:required:valid {
 }
 
 .avatar-number {
-  margin-top: 300px; /* desktop */
+  margin-top: 250px; /* desktop */
 }
 
 @media (max-width: 768px) {
@@ -5875,8 +5879,8 @@ form textarea:required:valid {
 }
 @media only screen and (min-width: 1200px) {
   .main-menu__link {
-    font-size: 5.6rem;
-    height: 6.5rem;
+    font-size:4.6rem;
+    height: 5.3rem;
     line-height: 6.5rem;
   }
   .main-menu__link .btn-caption {
@@ -6034,6 +6038,7 @@ form textarea:required:valid {
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 2.1rem;
+  padding: 30px;
 }
 @media only screen and (min-width: 1200px) {
   .menu-promo__content {
@@ -6083,6 +6088,11 @@ form textarea:required:valid {
     /* background-color: var(--base-opp); */
   }
 }
+@media only screen and (max-width: 767px) {
+  .menu-promo__video {
+    display: none;
+  }
+}
 .menu-video {
   display: block;
   width: 100%;
@@ -6091,6 +6101,7 @@ form textarea:required:valid {
   object-fit: cover;
   -moz-border-radius: var(--_radius-m);
   border-radius: var(--_radius-m);
+  
 }
 @media only screen and (min-width: 1200px) {
   .menu-video {
@@ -7970,7 +7981,7 @@ form textarea:required:valid {
 }
 .hero-02-static__caption {
   position: absolute;
-  font-size: 15px;
+  font-size: 15px ;
   margin-top: 3rem;
   right: 6vw;       /* pushes it to the right */
   text-align: right;
@@ -17809,17 +17820,17 @@ form textarea:required:valid {
   font-size: 20rem;
   line-height: 0.8;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
   .marquee__text {
-    font-size: 12rem;
+    font-size: 12rem ;
   }
   .marquee__text.text-xl {
-    font-size: 30rem;
+    font-size: 20px !important;
   }
 }
 @media only screen and (min-width: 1200px) {
   .marquee__text {
-    font-size: 12rem;
+    font-size: 5rem ;
   }
 }
 @media only screen and (min-width: 1400px) {

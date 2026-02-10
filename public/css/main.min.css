@@ -6043,7 +6043,7 @@ form textarea:required:valid {
     -webkit-box-align: end;
     -moz-box-align: end;
     -ms-flex-align: end;
-    align-items: flex-end;
+    align-items: flex-start;
     gap: 3rem;
     width: 80%;
     padding: 0 4rem;
@@ -6057,6 +6057,7 @@ form textarea:required:valid {
 .menu-promo__caption {
   font-weight: var(--fw-regular-opp);
   color: var(--t-opp-medium);
+  
 }
 @media only screen and (min-width: 1200px) {
   .menu-promo__caption {

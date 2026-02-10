@@ -506,7 +506,7 @@ textarea {
   text-shadow: none;
 }
 ::selection {
-  background-color: var(--accent);
+  background-color: #6d9bdf;
   color: var(--t-opp-bright);
   text-shadow: none;
 }

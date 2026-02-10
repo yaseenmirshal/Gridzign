@@ -9,7 +9,7 @@ export default function MarqueeSlider() {
           <VelocityMarquee className="marquee marquee-right--gsap muted-extra">
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Design</p>
+              <p className="marquee__text">Web Development</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -33,7 +33,7 @@ export default function MarqueeSlider() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Development</p>
+              <p className="marquee__text">SEO & Digital Marketing</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -57,7 +57,7 @@ export default function MarqueeSlider() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Branding</p>
+              <p className="marquee__text">App Development</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -81,7 +81,7 @@ export default function MarqueeSlider() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">eCommerce</p>
+              <p className="marquee__text">Brand Identity</p>
               <div className="marquee__image">
                 <svg
                   version="1.1"
@@ -105,10 +105,10 @@ export default function MarqueeSlider() {
             </div>
             {/* single item */}
             <div className="marquee__item one-line item-regular text">
-              <p className="marquee__text">Mobile Apps</p>
+              <p className="marquee__text">E-commerce</p>
               <div className="marquee__image">
                 <svg
-                  version="1.1"
+                  version="1.1" 
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 80 80"
                   fill="currentColor"

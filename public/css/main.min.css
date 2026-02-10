@@ -4816,6 +4816,7 @@ form textarea:required:valid {
   }
 }
 .mxd-counter__descr {
+  text-align: right;
   max-width: 250px;
   height: 260px ;
   height: 460px;

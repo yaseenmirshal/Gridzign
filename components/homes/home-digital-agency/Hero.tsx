@@ -232,7 +232,7 @@ export default function Hero() {
                             
                             </ul>
                           </div>
-                          <div className="col-6 col-xl-5">
+                          <div className="col-6 col-xl-7">
                             <ul>
                             
                               <li>

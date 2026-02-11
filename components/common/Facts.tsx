@@ -14,14 +14,12 @@ export default function Facts() {
               <div className="row gx-0">
                 {factsData.map((item, idx) => (
                   <div className={item.colClass} key={idx}>
+                    
                     {/* CARD */}
-                    <div
-                      className={item.cardClass}
-                      style={{ position: "relative" }}
-                    >
+                    <div className={`${item.cardClass} relative`}>
+                      
                       {/* CONTENT */}
                       <div>
-                        {/* Avatars */}
                         {item.avatars && (
                           <div className="mxd-stats-cards__avatars">
                             <div className="mxd-avatars">
@@ -75,28 +73,11 @@ export default function Facts() {
                         </div>
                       </div>
 
-                      {/* 🔥 GUARANTEED VISIBLE BUTTON */}
+                      {/* BUTTON */}
                       {item.button && (
                         <a
                           href={item.button.href}
-                          style={{
-                            position: "absolute",
-                            bottom: "24px",
-                            left: "24px",
-                            zIndex: 9999,
-                            padding: "14px 28px",
-                            borderRadius: "999px",
-                            backgroundColor: "#ffffff",
-                            color: "#000000",
-                            fontSize: "16px",
-                            fontWeight: 600,
-                            textDecoration: "none",
-                            display: "inline-flex",
-                            alignItems: "center",
-                            gap: "10px",
-                            boxShadow:
-                              "0 8px 20px rgba(0,0,0,0.15)",
-                          }}
+                          className={item.button.btnClass}
                         >
                           {item.button.text}
                           <i className={item.button.iconClass} />
@@ -113,6 +94,7 @@ export default function Facts() {
                         />
                       </div>
                     </div>
+
                   </div>
                 ))}
               </div>

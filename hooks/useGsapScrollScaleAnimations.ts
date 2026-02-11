@@ -241,7 +241,7 @@ export default function useGsapScrollScaleAnimations() {
             duration: 0.8,
             ease: "none",
             opacity: 1,
-            delay: 1.2,
+            delay: 3.2,
           });
         };
 

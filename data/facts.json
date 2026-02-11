@@ -8,14 +8,14 @@
     "imageHeight": 800,
     "button": {
       "text": "Studio",
-      "href": "/about-us",
+      "href": "/contact",
       "iconClass": "ph-bold ph-arrow-up-right",
-      "btnClass": "btn btn-anim btn-default btn-outline opposite slide-right-up"
+      "btnClass": "absolute starbtn"
     },
     "cardClass": "mxd-stats-cards__inner align-end bg-accent radius-m padding-4",
     "counterId": "stats-counter-1",
     "numberClass": "mxd-counter__number mxd-stats-number opposite",
-    "descrClass": "mxd-counter__descr t-140 t-bright opposite ",
+    "descrClass": "mxd-counter__descr t-140 t-bright opposite",
     "imageClass": "mxd-stats-cards__image mxd-stats-cards-image-1",
     "colClass": "col-12 col-xl-5 mxd-stats-cards__item mxd-grid-item anim-uni-scale-in-right"
   },
@@ -55,7 +55,7 @@
   },
   {
     "number": 99.9,
-    "suffix": "%",  
+    "suffix": "%",
     "description": "Uptime Across Deployed Systems",
     "image": "/img/illustrations/preview/robot.webp",
     "imageWidth": 800,
@@ -64,7 +64,7 @@
       "text": "Start New Project",
       "href": "/contact",
       "iconClass": "ph-bold ph-arrow-down-right",
-      "btnClass": "btn btn-anim btn-default btn-outline slide-right-down"
+      "btnClass": "absolute robotbtn"
     },
     "cardClass": "mxd-stats-cards__inner bg-base-tint radius-m padding-4",
     "counterId": "stats-counter-3",
@@ -82,9 +82,9 @@
     "imageHeight": 800,
     "button": {
       "text": "Works",
-      "href": "/works-simple",
+      "href": "/contact",
       "iconClass": "ph-bold ph-arrow-up-right",
-      "btnClass": "btn btn-anim btn-default btn-outline slide-right-up"
+      "btnClass": "absolute robotbtn"
     },
     "cardClass": "mxd-stats-cards__inner bg-base-tint radius-m padding-4",
     "counterId": "stats-counter-4",

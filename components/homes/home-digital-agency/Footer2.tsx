@@ -1,6 +1,7 @@
 import Link from "next/link";
 import footerNav from "@/data/footer-nav.json";
 import socials from "@/data/socials.json";
+import { FaMapMarkerAlt } from "react-icons/fa"
 import AnimatedButton from "../../animation/AnimatedButton";
 import SubscribeForm from "../../footers/SubscribeForm";
 export default function Footer2() {
@@ -264,6 +265,28 @@ export default function Footer2() {
                   ))}
                 </ul>
               </div>
+
+            <p className="mxd-point-subtitle anim-uni-in-up">
+  <a
+    href="https://maps.google.com/?q=Fair+Grow+General+Trading+LLC+Al+Nahda+2+Dubai"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-start gap-3 text-gray-700 hover:text-black transition duration-300"
+  >
+ <FaMapMarkerAlt className="w-4 h-4 mt-1 text-gray-500" />
+
+    {/* Address */}
+    <span className="leading-relaxed">
+      Fair Grow General Trading LLC <br />
+      Office 202 (TIQS), Ahli House C, <br />
+      Al Nahda 2, Dubai 85928, U.A.E
+    </span>
+  </a>
+</p>
+
+              
+
+            
             </div>
             {/* links */}
             <div className="footer-blocks__links anim-uni-in-up">

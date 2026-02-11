@@ -41,6 +41,14 @@ border-radius:20px;
   
 }
 
+@media (max-width: 767px) {
+  .clientcontainer {
+   width: 150px;
+   padding: 15px;
+   border-radius: 5px;
+  }
+}
+
 .clientimage{
   border-radius:20px;
 }

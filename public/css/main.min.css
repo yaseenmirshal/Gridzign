@@ -2006,7 +2006,6 @@ p.t-small-mobile {
   font-size: 1.6rem;
 }
 
-
 p.t-large {
   font-family: var(--_font-accent);
   font-size: 2.5rem;
@@ -4867,7 +4866,7 @@ form textarea:required:valid {
 @media (max-width: 767px) {
   .starbtn {
     bottom: 296px;
-    right: 150px;
+    right: 155px;
 
     padding: 8px 20px;
     /* font-size: 14px; */
@@ -17384,6 +17383,7 @@ form textarea:required:valid {
 .mxd-cpb-list__num {
   font: normal var(--fw-medium) 2.2rem/1.2 var(--_font-accent);
   color: var(--t-muted);
+
 }
 @media only screen and (min-width: 1200px) {
   .mxd-cpb-list__num {
@@ -17391,6 +17391,8 @@ form textarea:required:valid {
     color: var(--t-bright);
   }
 }
+
+
 .mxd-cpb-list__image {
   display: block;
   -moz-border-radius: var(--_radius-m);
@@ -17402,6 +17404,11 @@ form textarea:required:valid {
   .mxd-cpb-list__image {
     display: none;
   }
+}
+@media (max-width: 767px) {
+  .mxd-cpb-list__image {
+    display: none;
+    }
 }
 .mxd-res-list {
   position: relative;

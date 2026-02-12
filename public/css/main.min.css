@@ -6807,12 +6807,12 @@ form textarea:required:valid {
   }
 }
 .footer-blocks__title-l {
-  font: normal var(--fw-medium) 3rem/1.2 var(--_font-accent);
+  font: normal var(--fw-medium) 3rem/0.2 var(--_font-accent);
   color: var(--t-bright);
 }
 @media only screen and (min-width: 768px) {
   .footer-blocks__title-l {
-    font-size: 4.4rem;
+    font-size: 3.4rem;
   }
 }
 .footer-blocks__socials {

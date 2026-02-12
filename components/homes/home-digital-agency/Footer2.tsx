@@ -279,7 +279,7 @@ export default function Footer2() {
     <span className="leading-relaxed">
       Fair Grow General Trading LLC <br />
       Office 202 (TIQS), Ahli House C, <br />
-      Al Nahda 2, Dubai 85928, U.A.E
+      Al Nahda 2, Dubai, U.A.E
     </span>
   </a>
 </p>

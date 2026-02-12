@@ -4829,6 +4829,25 @@ form textarea:required:valid {
   overflow: hidden;
 }
 
+/* Default = dark */
+.logo-light {
+  display: none;
+}
+
+.logo-dark {
+  display: block;
+}
+
+/* When light mode */
+html[color-scheme="light"] .logo-light {
+  display: block;
+}
+
+html[color-scheme="light"] .logo-dark {
+  display: none;
+}
+
+
 .avatar-number {
   margin-top: 50px; /* desktop */
 }
@@ -4866,7 +4885,7 @@ form textarea:required:valid {
 @media (max-width: 767px) {
   .starbtn {
     bottom: 296px;
-    right: 155px;
+    right: 160px;
 
     padding: 8px 20px;
     /* font-size: 14px; */

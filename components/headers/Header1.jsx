@@ -33,10 +33,7 @@ export default function Header1() {
             height={100}
             
           />
-          {/* logo text */}
-          {/* <span className="mxd-logo__text">
-            GridZign
-          </span> */}
+        
         </Link>
       </div>
       {/* header controls */}

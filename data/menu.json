@@ -1,46 +1,31 @@
 [
   {
     "title": "Home",
-    "href": "/",
-     "submenu": [
-     
-    ]
+    "href": "/"
  
   },
   {
     "title": "About Us",
-     "href": "/",
-    "submenu": [
-      
-    ]
+     "href": "/about"
   },
   {
     "title": "Case Studies",
-     "href": "/",
-    "submenu": [
-     
-    ]
+     "href": "/casestudy3"
   },
   {
     "title": "Services",
-     "href": "/",
-    "submenu": [
-     
-    ]
+     "href": "/services3"
+    
     
   },
   {
     "title": "Web Hosting",
-    "href": "https://hostimpress.com/",
-    "submenu": [
-     
-    ],
-    "target": "_blank"
+    "target": "_blank",
+    "external": true,
+    "href": "https://hostimpress.com/"
+   
   },{
     "title": "Connect",
-    "submenu": [
-     
-    ],
     "href": "/contact"
   }
 ]

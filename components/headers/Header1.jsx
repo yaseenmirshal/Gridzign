@@ -38,7 +38,7 @@ export default function Header1() {
       </div>
       {/* header controls */}
       <div className="mxd-header__controls loading__fade">
-        <ThemeSwitcherButton />
+        {/* <ThemeSwitcherButton /> */}
 
         {pathname == "/" || pathname == "/preview" ? (
           <AnimatedButton

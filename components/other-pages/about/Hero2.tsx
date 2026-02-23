@@ -46,11 +46,11 @@ export default function Hero2() {
                   <div className="mxd-block__content">
                     <div className="mxd-block__inner-headline">
                       <h1 className="inner-headline__title headline-img-before headline-img-06 loading__item">
-                        Driven by ideas and innovation
+                        Designing Digital Experiences That Scale
                       </h1>
-                      {/* <p class="inner-headline__text t-large t-bright">Our team is a blend of creative 
+                      <p className="inner-headline__text t-large t-bright">Our team is a blend of creative 
                   thinkers, problem-solvers, and tech enthusiasts dedicated to bringing your ideas 
-                  to life. Together, we craft innovative solutions that inspire and deliver results.</p> */}
+                  to life. Together, we craft innovative solutions that inspire and deliver results.</p>
                     </div>
                   </div>
                 </div>
@@ -78,12 +78,12 @@ export default function Hero2() {
                             <ul>
                               <li>
                                 <p className="t-small anim-uni-in-up">
-                                  Innovations
+                                  Strategy
                                 </p>
                               </li>
                               <li>
                                 <p className="t-small anim-uni-in-up">
-                                  Excellence
+                                 Innovation
                                 </p>
                               </li>
                               <li>
@@ -93,17 +93,17 @@ export default function Hero2() {
                               </li>
                               <li>
                                 <p className="t-small anim-uni-in-up">
-                                  Experience
+                                  Performance
                                 </p>
                               </li>
                               <li>
                                 <p className="t-small anim-uni-in-up">
-                                  Competence
+                                 Precision
                                 </p>
                               </li>
                               <li>
                                 <p className="t-small anim-uni-in-up">
-                                  Passion
+                                  Growth
                                 </p>
                               </li>
                             </ul>
@@ -112,7 +112,7 @@ export default function Hero2() {
                             <ul>
                               <li>
                                 <p className="t-small anim-uni-in-up">
-                                  Web design
+                                  Website
                                 </p>
                               </li>
                               <li>
@@ -120,22 +120,25 @@ export default function Hero2() {
                               </li>
                               <li>
                                 <p className="t-small anim-uni-in-up">
-                                  App design
+                                 IU/UX
                                 </p>
                               </li>
                               <li>
                                 <p className="t-small anim-uni-in-up">
-                                  Development
+                                  Mobile Apps
                                 </p>
                               </li>
                               <li>
                                 <p className="t-small anim-uni-in-up">
-                                  Branding
+                                 Branding
                                 </p>
                               </li>
                               <li>
-                                <p className="t-small anim-uni-in-up">Motion</p>
+                                <p className="t-small anim-uni-in-up">
+                                 Web Hosting
+                                </p>
                               </li>
+                              
                             </ul>
                           </div>
                         </div>
@@ -152,9 +155,11 @@ export default function Hero2() {
                         as="p"
                         className="t-bright t-large reveal-type"
                       >
-                        We are a creative digital agency specializing in
-                        innovative design and cutting-edge development. We help
-                        businesses stand out and thrive in the modern landscape.
+                       We are a forward-thinking digital agency focused on building impactful web,
+                        mobile, and e-commerce solutions. By combining creativity with technology, 
+                        we craft experiences that not only look exceptional but perform seamlessly
+                         across platforms. We proudly operate as a part of Fair Grow General Trading LLC,
+                          bringing strong business foundations and strategic expertise to every project.
                       </RevealText>
                     </div>
                   </div>

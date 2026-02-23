@@ -16,7 +16,7 @@ export default function Approch() {
                 <div className="col-12 col-xl-6 mxd-grid-item no-margin">
                   <div className="mxd-section-title__hrtitle anim-uni-in-up">
                     <RevealText as="h2" className="reveal-type">
-                      Approach and philosophy
+                      What Drives Us Forward
                     </RevealText>
                   </div>
                 </div>

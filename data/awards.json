@@ -1,38 +1,56 @@
 [
   {
-    "title": "Some article on Medium",
+    "title": "Foundation Built",
     "url": "https://medium.com/",
     "image": "/img/works/preview/600x600_prv-01.webp",
     "imageWidth": 601,
     "imageHeight": 600,
-    "tags": ["UI/UX design", "Development"],
-    "date": "2025"
+    "tags": ["Launched with a clear digital vision"],
+    "date": "2021"
   },
   {
-    "title": "Awwwards nomination",
+    "title": "Expanding Capabilities",
     "url": "https://www.awwwards.com/",
     "image": "/img/works/preview/600x600_prv-02.webp",
     "imageWidth": 600,
     "imageHeight": 601,
-    "tags": ["UI/UX", "Frontend"],
-    "date": "2024"
+    "tags": ["Expanded into modern web technologies"],
+    "date": "2022"
   },
   {
-    "title": "Behance curated work",
+    "title": "Strategic Partnerships",
     "url": "https://www.behance.net/",
     "image": "/img/works/preview/600x600_prv-03.webp",
     "imageWidth": 600,
     "imageHeight": 600,
-    "tags": ["Illustrations", "Graphic design"],
-    "date": "2024"
+    "tags": ["Formed key global collaborations"],
+    "date": "2023"
   },
   {
-    "title": "Article on Medium",
+    "title": "Scaling Innovation",
     "url": "https://medium.com/",
     "image": "/img/works/preview/600x600_prv-04.webp",
     "imageWidth": 600,
     "imageHeight": 600,
-    "tags": ["UI/UX", "Frontend"],
+    "tags": ["Delivered high-performance digital solutions"],
     "date": "2024"
+  },
+  {
+    "title": "Global Impact",
+    "url": "https://medium.com/",
+    "image": "/img/works/preview/600x600_prv-04.webp",
+    "imageWidth": 600,
+    "imageHeight": 600,
+    "tags": ["Served clients across industries"],
+    "date": "2025"
+  },
+  {
+    "title": "Future Focused",
+    "url": "https://medium.com/",
+    "image": "/img/works/preview/600x600_prv-04.webp",
+    "imageWidth": 600,
+    "imageHeight": 600,
+    "tags": ["Building what’s next in tech"],
+    "date": "Today"
   }
 ]

@@ -12,9 +12,9 @@ import Team from "@/components/other-pages/about/Team";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "About Us || Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "GridZign | About Us",
   description:
-    "Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Digital Agency",
 };
 export default function AboutUsPage() {
   return (

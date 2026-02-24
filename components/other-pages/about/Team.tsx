@@ -87,7 +87,7 @@ export default function Team() {
                               <AnimatedButton
                                 className="btn btn-anim btn-default btn-outline slide-right-up"
                                 text="Meet our team"
-                                href={`/team`}
+                                href={`/contact`}
                               >
                                 <i className="ph-bold ph-arrow-up-right" />
                               </AnimatedButton>

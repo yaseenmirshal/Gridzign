@@ -2,7 +2,7 @@
   {
     "title": "Foundation Built",
     "url": "https://medium.com/",
-    "image": "/img/works/preview/600x600_prv-01.webp",
+    "image": "https://rayo-nextjs-creative-template.netlify.app/_next/image?url=%2Fimg%2Fworks%2Fpreview%2F600x600_prv-03.webp&w=1200&q=75",
     "imageWidth": 601,
     "imageHeight": 600,
     "tags": ["Launched with a clear digital vision"],
@@ -11,7 +11,7 @@
   {
     "title": "Expanding Capabilities",
     "url": "https://www.awwwards.com/",
-    "image": "/img/works/preview/600x600_prv-02.webp",
+    "image": "https://rayo-nextjs-creative-template.netlify.app/_next/image?url=%2Fimg%2Fworks%2Fpreview%2F600x600_prv-02.webp&w=1200&q=75",
     "imageWidth": 600,
     "imageHeight": 601,
     "tags": ["Expanded into modern web technologies"],
@@ -20,7 +20,7 @@
   {
     "title": "Strategic Partnerships",
     "url": "https://www.behance.net/",
-    "image": "/img/works/preview/600x600_prv-03.webp",
+    "image": "https://rayo-nextjs-creative-template.netlify.app/_next/image?url=%2Fimg%2Fworks%2Fpreview%2F600x600_prv-04.webp&w=1200&q=75",
     "imageWidth": 600,
     "imageHeight": 600,
     "tags": ["Formed key global collaborations"],
@@ -29,7 +29,7 @@
   {
     "title": "Scaling Innovation",
     "url": "https://medium.com/",
-    "image": "/img/works/preview/600x600_prv-04.webp",
+    "image": "https://rayo-nextjs-creative-template.netlify.app/_next/image?url=%2Fimg%2Fworks%2Fpreview%2F600x600_prv-02.webp&w=1200&q=75",
     "imageWidth": 600,
     "imageHeight": 600,
     "tags": ["Delivered high-performance digital solutions"],
@@ -38,7 +38,7 @@
   {
     "title": "Global Impact",
     "url": "https://medium.com/",
-    "image": "/img/works/preview/600x600_prv-04.webp",
+    "image": "https://rayo-nextjs-creative-template.netlify.app/_next/image?url=%2Fimg%2Fworks%2Fpreview%2F600x600_prv-03.webp&w=1200&q=75",
     "imageWidth": 600,
     "imageHeight": 600,
     "tags": ["Served clients across industries"],
@@ -47,7 +47,7 @@
   {
     "title": "Future Focused",
     "url": "https://medium.com/",
-    "image": "/img/works/preview/600x600_prv-04.webp",
+    "image": "https://rayo-nextjs-creative-template.netlify.app/_next/image?url=%2Fimg%2Fworks%2Fpreview%2F600x600_prv-01.webp&w=1920&q=75",
     "imageWidth": 600,
     "imageHeight": 600,
     "tags": ["Building what’s next in tech"],

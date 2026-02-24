@@ -1413,7 +1413,7 @@ html.lenis body {
   }
 }
 @media only screen and (min-width: 1200px) {
-  .inner-headline__title.headline-img-before::before {
+  .inner-headline__title::before {
     width: 14rem;
     height: 7rem;
     margin-right: 2.6rem;

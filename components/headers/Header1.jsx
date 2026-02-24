@@ -23,7 +23,7 @@ export default function Header1() {
   return (
     <header id="header" className={`mxd-header ${isHidden ? "is-hidden" : ""}`}>
       {/* header logo */}
-      <div className="mxd-header__logo loading__fade">
+      <div className="mxd-header__logo ">
         <Link href={`/`} className="mxd-logo">
           {/* logo icon */}
           <Image
@@ -37,7 +37,7 @@ export default function Header1() {
         </Link>
       </div>
       {/* header controls */}
-      <div className="mxd-header__controls loading__fade">
+      <div className="mxd-header__controls ">
         {/* <ThemeSwitcherButton /> */}
 
         {pathname == "/" || pathname == "/preview" ? (

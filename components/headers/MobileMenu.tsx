@@ -104,7 +104,7 @@ export default function MobileMenu() {
       data-lenis-prevent=""
     >
       {/* Hamburger */}
-      <div className="mxd-nav__contain loading__fade">
+      <div className="mxd-nav__contain mxd-header__controls">
         <button
           type="button"
           onClick={handleToggle}

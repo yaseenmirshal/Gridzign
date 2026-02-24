@@ -36,7 +36,7 @@ export default function Hero2() {
                     c0,0,1.3-0.1,1.8-0.2c1,0,4,0,4,0c0.2,0,0.4-0.2,0.4-0.4C20,9.8,19.8,9.6,19.6,9.6L19.6,9.6z"
                         />
                       </svg>
-                      <span>Studio</span>
+                      <span>Focus</span>
                     </p>
                   </div>
                 </div>

@@ -36,6 +36,7 @@ export default function AboutUsPage() {
         <Awards />
         <MarqueeSlider />
         <Team />
+        <MarqueeSlider3/>
         <Facts />
         <Approch />
         {/* <div className="mxd-section padding-pre-title">

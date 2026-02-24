@@ -273,7 +273,7 @@ export default function Footer2() {
     rel="noopener noreferrer"
     className="flex items-start gap-3 text-gray-700 hover:text-black transition duration-300"
   >
- <FaMapMarkerAlt className="w-4 h-4 mt-1 text-gray-500" />
+ {/* <FaMapMarkerAlt className="w-4 h-4 mt-1 text-gray-500" /> */}
 
     {/* Address */}
     <span className="leading-relaxed">

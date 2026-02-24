@@ -1,8 +1,7 @@
 [
-  { "title": "Web Development", "url": "https://dribbble.com/" },
-  { "title": "App Development", "url": "https://www.behance.net/" },
-  { "title": "UI/UX & Design", "url": "https://www.instagram.com/" },
-  { "title": "E-Commerce Solutions", "url": "https://github.com/" },
-  { "title": "Digital Marketing", "url": "https://codepen.io/" },
-  { "title": "Figma Custom Software", "url": "https://www.figma.com/community" }
+  { "title": "Web Development", "url": "https://hostimpress.com/" },
+  { "title": "App Development", "url": "https://hostimpress.com/" },
+  { "title": "UI/UX & Design", "url": "https://hostimpress.com/" },
+  { "title": "E-Commerce Solutions", "url": "https://hostimpress.com/" },
+  { "title": "Digital Marketing", "url": "https://hostimpress.com/" }
 ]

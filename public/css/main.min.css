@@ -2169,7 +2169,7 @@ p.t-semibold {
   -ms-flex-pack: left;
   justify-content: left;
   gap: 1rem;
-  font: normal var(--fw-regular) 2.2rem/1.2 var(--_font-accent);
+  font: normal var(--fw-regular) 1.7rem/1.2 var(--_font-accent);
   color: var(--t-bright);
 }
 .mxd-point-subtitle svg {
@@ -2723,6 +2723,9 @@ p.t-semibold {
   letter-spacing: -0.06rem;
   color: var(--t-muted-extra);
   margin-top: 1rem;
+}
+.btn-line-headline:hover {
+  color: #6d9bdf !important;
 }
 .btn-line-headline .btn-caption,
 .btn-line-headline i {
@@ -6856,7 +6859,7 @@ html[color-scheme="light"] .logo-dark {
   margin-bottom: 0;
 }
 .footer-socials__link {
-  font: normal var(--fw-regular) 2.2rem/1.6 var(--_font-accent);
+  font: normal var(--fw-regular) 1.9rem/1.6 var(--_font-accent);
   color: var(--t-bright);
 }
 .no-touch .footer-socials__link:hover {

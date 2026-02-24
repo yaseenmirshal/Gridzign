@@ -54,7 +54,7 @@ export default function CaseStudy() {
                                       <AnimatedButton
                                         text="All Works"
                                         className="btn btn-anim btn-default btn-outline slide-right-up"
-                                        href={`/works-simple`}
+                                        href={`/contact`}
                                       >
                                         <i className="ph-bold ph-arrow-up-right" />
                                       </AnimatedButton>
@@ -72,7 +72,7 @@ export default function CaseStudy() {
                               <div key={index} className="mxd-project-item">
                                 <Link
                                   className={`mxd-project-item__media ${project.anim}`}
-                                  href={`/project-details`}
+                                  href={`/contact`}
                                 >
                                   <BackgroundParallax
                                     className={`mxd-project-item__preview ${project.previewClass} parallax-img-small`}
@@ -92,7 +92,7 @@ export default function CaseStudy() {
                                   <div className="mxd-project-item__name">
                                     <Link
                                       className={project.anim}
-                                      href={`/project-details`}
+                                      href={`/contact`}
                                     >
                                       <span>{project.title}</span> {project.description}
                                     </Link>

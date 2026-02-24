@@ -31,7 +31,7 @@ export default function PageTitle() {
                     c0,0,1.3-0.1,1.8-0.2c1,0,4,0,4,0c0.2,0,0.4-0.2,0.4-0.4C20,9.8,19.8,9.6,19.6,9.6L19.6,9.6z"
                       />
                     </svg>
-                    <span>Contact</span>
+                    <span>Contact Us</span>
                   </p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default function PageTitle() {
                     </h1>
                     <a
                       className="btn btn-line-headline slide-right-up anim-no-delay"
-                      href="mailto:example@example.com?subject=Message%20from%20your%20site"
+                      href="mailto:ping@gridzign.com?subject=Message%20from%20your%20site"
                     >
                       <span className="btn-caption">ping@gridzign.com</span>
                       <i className="ph-bold ph-arrow-up-right" />

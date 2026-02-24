@@ -71,7 +71,7 @@ export default function AnimatedButton<As extends ElementType = "div">(
 
   // Build props based on tag type
   const tagProps = {
-    className: `btn-anim ${className}`,
+      className: `btn-anim ${className}`,
     "aria-label": text,
     ...(href && !isInternalLink ? { href, target } : {}),
     ...(isInternalLink ? { href } : {}),
@@ -86,35 +86,22 @@ export default function AnimatedButton<As extends ElementType = "div">(
     onMouseLeave: () => setPlay(false),
   };
 
-  // Prevent hydration mismatch by rendering static content on server
-  if (!isMounted) {
-    return (
-      <Tag {...tagProps}>
-        {position === "previous" ? <> {children}</> : null}
-        <span className="btn-caption">
-          <div className="btn-anim__block">{text}</div>
-          <div className="btn-anim__block" aria-hidden="true">
-            {text}
-          </div>
-        </span>
-        {position === "next" ? <> {children}</> : null}
-      </Tag>
-    );
-  }
-
-  return (
+  // Always render split letters to avoid hydration mismatch
+  const renderContent = () => (
     <>
-      <Tag {...animatedTagProps}>
-        {position === "previous" ? <> {children}</> : null}
-        <span className="btn-caption">
-          <div className="btn-anim__block">{letters}</div>
-          <div className="btn-anim__block" aria-hidden="true">
-            {letters}
-          </div>
-        </span>
-
-        {position === "next" ? <> {children}</> : null}
-      </Tag>
+      {position === "previous" ? <> {children}</> : null}
+      <span className="btn-caption">
+        <div className="btn-anim__block">{letters}</div>
+        <div className="btn-anim__block" aria-hidden="true">
+          {letters}
+        </div>
+      </span>
+      {position === "next" ? <> {children}</> : null}
     </>
   );
+
+  if (!isMounted) {
+    return <Tag {...tagProps}>{renderContent()}</Tag>;
+  }
+  return <Tag {...animatedTagProps}>{renderContent()}</Tag>;
 }

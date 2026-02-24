@@ -42,7 +42,7 @@ export default function Blogs({
                     <AnimatedButton
                       text="All Articles"
                       className="btn btn-anim btn-default btn-outline slide-right-up"
-                      href={`/contact`}
+                      href={`/casestudy3`}
                     >
                       <i className="ph-bold ph-arrow-up-right" />
                     </AnimatedButton>
@@ -61,11 +61,11 @@ export default function Blogs({
               <div className="row g-0">
                 {/* Blog Card 1 */}
                 <div className="col-12 col-xl-4 mxd-blog-preview__item mxd-grid-item animate-card-3">
-                  <Link className="mxd-blog-preview__media" href={`/blog-article`}>
+                  <Link className="mxd-blog-preview__media" href={`/casestudy3`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
                         src="https://i.ibb.co/xqQTJMCr/3457638478293472-9-2.png"
-                        alt="Blog 1"
+                        alt="casestudy3"
                         fill
                         className="object-cover"
                       />
@@ -88,11 +88,11 @@ export default function Blogs({
 
                 {/* Blog Card 2 */}
                 <div className="col-12 col-xl-4 mxd-blog-preview__item mxd-grid-item animate-card-3">
-                  <Link className="mxd-blog-preview__media" href={`/blog-article`}>
+                  <Link className="mxd-blog-preview__media" href={`/casestudy3`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
                         src="https://i.ibb.co/jkKXtFgw/wooden-letters-magnifying-glass-and-clips-on-ligh-2026-01-09-07-43-43-utc.webp"
-                        alt="Blog 2"
+                        alt="casestudy3"
                         fill
                         className="object-cover"
                       />
@@ -115,11 +115,11 @@ export default function Blogs({
 
                 {/* Blog Card 3 */}
                 <div className="col-12 col-xl-4 mxd-blog-preview__item mxd-grid-item animate-card-3">
-                  <Link className="mxd-blog-preview__media" href={`/blog-article`}>
+                  <Link className="mxd-blog-preview__media" href={`/casestudy3`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
                         src="https://i.ibb.co/mCjn0948/3457638478293472-11-e1757925682249.jpg"
-                        alt="Blog 3"
+                        alt="casestudy3"
                         fill
                         className="object-cover"
                       />

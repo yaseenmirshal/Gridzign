@@ -2,9 +2,9 @@
   {
     "id": 1,
     "name": "Helen Pineapple",
-    "position": "Founder, SEO",
+    "position": ".",
     "image": {
-      "src": "/img/team/800x920_team-06.webp",
+      "src": "https://rayo-nextjs-creative-template.netlify.app/_next/image?url=%2Fimg%2Fteam%2F800x920_team-06.webp&w=1920&q=75",
       "alt": "Helen Pineapple",
       "width": 800,
       "height": 920
@@ -12,20 +12,20 @@
     "socials": [
       {
         "name": "Linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "/contact"
       },
       {
         "name": "Behance",
-        "url": "https://www.behance.net/"
+        "url": "/contact"
       }
     ]
   },
   {
     "id": 2,
     "name": "Alex Tomato",
-    "position": "SEO, Brand manager",
+    "position": ".",
     "image": {
-      "src": "/img/team/800x920_team-05.webp",
+      "src": "https://rayo-nextjs-creative-template.netlify.app/_next/image?url=%2Fimg%2Fteam%2F800x920_team-05.webp&w=1920&q=75",
       "alt": "Alex Tomato",
       "width": 800,
       "height": 920
@@ -33,11 +33,11 @@
     "socials": [
       {
         "name": "Linkedin",
-        "url": "https://www.linkedin.com/"
+        "url": "/contact"
       },
       {
         "name": "Figma Community",
-        "url": "https://www.figma.com/community"
+        "url": "/contact"
       }
     ]
   }

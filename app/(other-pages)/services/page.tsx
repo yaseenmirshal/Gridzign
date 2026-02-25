@@ -7,9 +7,9 @@ import Services from "@/components/other-pages/services/Services";
 import { Metadata } from "next";
 export const metadata: Metadata = {
   title:
-    "Services || Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Gridzign | Services",
   description:
-    "Rayo - Digital Agency & Personal Portfolio React Nextjs Template",
+    "Digital Agency",
 };
 export default function ServicesPage() {
   return (
@@ -20,7 +20,7 @@ export default function ServicesPage() {
       >
         <Hero />
         <Services />
-        <ParallaxDivider />
+        {/* <ParallaxDivider /> */}
         <Blogs />
         <Cta />
       </main>

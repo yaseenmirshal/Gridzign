@@ -46,7 +46,7 @@ export default function Hero2() {
                   <div className="mxd-block__content">
                     <div className="mxd-block__inner-headline">
                       <h1 className="inner-headline__title headline-img-before headline-img-06 loading__item">
-                        Designing Digital Experiences That Scale
+                        <span className="digitaltext">Designing Digital Experiences That Scale</span>
                       </h1>
                       <p className="inner-headline__text t-large t-bright">Our team is a blend of creative 
                   thinkers, problem-solvers, and tech enthusiasts dedicated to bringing your ideas 

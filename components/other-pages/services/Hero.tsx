@@ -47,7 +47,7 @@ export default function Hero() {
                   <div className="mxd-block__content">
                     <div className="mxd-block__inner-headline">
                       <h1 className="inner-headline__title headline-img-before headline-img-04 loading__item">
-                        New standards in digital excellence
+                        <span className="digitaltext">Digital Solutions Built to Perform & Scale</span>
                       </h1>
                       {/* <p class="inner-headline__text t-large t-bright"></p> */}
                     </div>
@@ -86,11 +86,10 @@ export default function Hero() {
                                     id="stats-counter-3"
                                     className="mxd-counter__number mxd-stats-number"
                                   >
-                                    <Counter max={5} />+
+                                    <Counter max={99} />%
                                   </p>
                                   <p className="mxd-counter__descr t-140 t-bright">
-                                    Years of professional experience in
-                                    designing digital products
+                                    Uptime Across Deployed Systems
                                   </p>
                                 </div>
                                 <div className="mxd-stats-cards__btngroup">
@@ -107,7 +106,7 @@ export default function Hero() {
                                 <div className="mxd-stats-cards__image mxd-stats-cards-image-3">
                                   <Image
                                     alt="Illustration"
-                                    src="/img/illustrations/800x800_card-image-03.webp"
+                                    src="http://localhost:3000/img/illustrations/preview/robot.webp"
                                     width={800}
                                     height={800}
                                   />
@@ -125,9 +124,7 @@ export default function Hero() {
                                     <Counter max={70} />+
                                   </p>
                                   <p className="mxd-counter__descr t-140 t-bright">
-                                    Successfully
-                                    <br />
-                                    completed projects
+                                    SSL & Secure Deploymen
                                   </p>
                                 </div>
                                 <div className="mxd-stats-cards__btngroup">
@@ -142,7 +139,7 @@ export default function Hero() {
                                 <div className="mxd-stats-cards__image mxd-stats-cards-image-4">
                                   <Image
                                     alt="Illustration"
-                                    src="/img/illustrations/800x800_card-image-04.webp"
+                                    src="http://localhost:3000/img/illustrations/preview/robot%20head.webp"
                                     width={800}
                                     height={800}
                                   />

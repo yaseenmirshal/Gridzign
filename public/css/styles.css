@@ -155,3 +155,22 @@ border-radius:20px;
 .loading__fade {
   opacity: 1;
 }
+
+
+.digitaltext {
+  font-size: 110px;
+}
+
+/* Tablet */
+@media (max-width: 1024px) {
+  .digitaltext {
+    font-size: 80px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .digitaltext {
+    font-size: 45px;
+  }
+}

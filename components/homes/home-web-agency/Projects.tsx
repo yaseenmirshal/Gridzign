@@ -46,7 +46,7 @@ export default function Projects() {
                             <AnimatedButton
                               text="All Works"
                               className="btn btn-anim btn-default btn-outline slide-right-up"
-                              href={`/contact`}
+                              href={`/casestudy3`}
                             >
                               <i className="ph ph-arrow-up-right" />
                             </AnimatedButton>
@@ -64,7 +64,7 @@ export default function Projects() {
                   >
                     <Link
                       className="mxd-project-item__media masonry-media"
-                      href={`/contact`}
+                      href={`/casestudy3`}
                     >
                       <BackgroundParallax
                         className={`mxd-project-item__preview masonry-preview ${project.previewClass} parallax-img-small`}
@@ -84,7 +84,7 @@ export default function Projects() {
                       <div className="mxd-project-item__name">
                         <Link
                           className={project.anim}
-                          href={`/contact`}
+                          href={`/casestudy3`}
                         >
                           <span>{project.title}</span> {project.description}
                         </Link>

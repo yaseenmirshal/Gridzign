@@ -206,26 +206,26 @@ export default function Hero() {
                   <div className="col-12 col-md-6 col-xl-4 mxd-grid-item no-margin">
                     <div className="mxd-paragraph__lists loading__fade">
                       <div className="container-fluid p-0">
-                        <div className="row g-0">
+                        <div className="row g-0 -mt-56">
                           <div className="col-6 col-xl-5">
                             <ul>
                               <li>
-                                <p className="t-small anim-uni-in-up">
+                                <p className="t-small ">
                                   Web Development
                                 </p>
                               </li>
                               <li>
-                                <p className="t-small anim-uni-in-up">
+                                <p className="t-small ">
                                   App Development
                                 </p>
                               </li>
                               <li>
-                                <p className="t-small anim-uni-in-up">
+                                <p className="t-small ">
                                   UI/UX Design
                                 </p>
                               </li>
                               <li>
-                                <p className="t-small anim-uni-in-up">
+                                <p className="t-small ">
                                   Brand Identity
                                 </p>
                               </li>
@@ -236,22 +236,22 @@ export default function Hero() {
                             <ul>
                             
                               <li>
-                                <p className="t-small anim-uni-in-up">
+                                <p className="t-small ">
                                   SEO & Digital Marketing
                                 </p>
                               </li>
                               <li>
-                                <p className="t-small anim-uni-in-up">
+                                <p className="t-small ">
                                   Cloud & Hosting Services
                                 </p>
                               </li>
                               <li>
-                                <p className="t-small anim-uni-in-up">
+                                <p className="t-small ">
                                   Custom Software
                                 </p>
                               </li>
                               <li>
-                                <p className="t-small anim-uni-in-up">
+                                <p className="t-small ">
                                   E-commerce Solutions
                                 </p>
                               </li>
@@ -347,7 +347,7 @@ export default function Hero() {
   href="https://wa.me/971555784992"
   target="_blank"
   rel="noopener noreferrer"
-  className="fixed bottom-8 left-8 z-[9999]"
+  className="fixed ml-10 bottom-20 left-8 z-[9999]"
   aria-label="Chat on WhatsApp"
 >
   <div className="relative w-20 h-20">

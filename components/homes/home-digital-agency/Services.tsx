@@ -27,11 +27,9 @@ export default function Services() {
                     </div>
                     <div className="mxd-services-stack__works">
                       {stack.works.map((w, i) => (
-                        <Link
-                          key={i}
-                          className="mxd-services-stack__work"
-                          href={`/contact`}
-                        >
+                        
+                          <span key={i}
+                          className="mxd-services-stack__work">
                           <Image
                             className="mxd-services-stack__preview"
                             alt="Work Preview"
@@ -59,7 +57,8 @@ export default function Services() {
                               />
                             </i>
                           </div> */}
-                        </Link>
+                      
+                        </span>
                       ))}
                     </div>
                   </div>

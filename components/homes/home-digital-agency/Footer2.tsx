@@ -135,7 +135,7 @@ export default function Footer2() {
               </ul>
             </div>
             {/* links */}
-            <div className="footer-blocks__links anim-uni-in-up">
+            <div className="footer-blocks__links">
               <AnimatedButton
                 text="Gridzign Subscriptions"
                 as={"a"}
@@ -188,7 +188,7 @@ export default function Footer2() {
           </div>
           {/* inner card */}
           <div className="footer-blocks__card">
-            <p className="mxd-point-subtitle anim-uni-in-up">
+            <p className="mxd-point-subtitle">
               <svg
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -216,13 +216,13 @@ export default function Footer2() {
           {/* inner card */}
           <div className="footer-blocks__card fill-card notify">
             {/* card title */}
-            <div className="footer-blocks__title anim-uni-in-up">
+            <div className="footer-blocks__title ">
               <p className="footer-blocks__title-m">
                 Subscribe to our insights
               </p>
             </div>
             {/* subscribe form container */}
-            <div className="form-container anim-uni-in-up">
+            <div className="form-container ">
               {/* reply messages */}
               <div className="form__reply subscription-ok">
                 <span className="reply__text">
@@ -246,14 +246,14 @@ export default function Footer2() {
             {/* nav block */}
             <div className="footer-blocks__block">
               {/* card title */}
-              <div className="footer-blocks__title anim-uni-in-up">
+              <div className="footer-blocks__title ">
                 <p className="footer-blocks__title-l">Innovate With Us</p>
               </div>
               {/* footer socials */}
               <div className="footer-blocks__socials">
                 <ul className="footer-socials">
                   {socials.map((social, i) => (
-                    <li key={i} className="footer-socials__item anim-uni-in-up">
+                    <li key={i} className="footer-socials__item ">
                       <a
                         href={social.url}
                         className="footer-socials__link"
@@ -266,7 +266,7 @@ export default function Footer2() {
                 </ul>
               </div>
 
-            <p className="mxd-point-subtitle anim-uni-in-up">
+            <p className="mxd-point-subtitle ">
   <a
     href="https://maps.google.com/?q=Fair+Grow+General+Trading+LLC+Al+Nahda+2+Dubai"
     target="_blank"

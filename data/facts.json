@@ -8,7 +8,7 @@
     "imageHeight": 800,
     "button": {
       "text": "Studio",
-      "href": "/contact",
+      "href": "/casestudy3",
       "iconClass": "ph-bold ph-arrow-up-right",
       "btnClass": "absolute starbtn"
     },

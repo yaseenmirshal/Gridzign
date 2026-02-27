@@ -42,7 +42,7 @@ export default function Header1() {
 
         {pathname == "/" || pathname == "/preview" ? (
           <AnimatedButton
-            text="Contact Us"
+            text="Say Hello"
             className="btn btn-anim btn-default btn-mobile-icon btn-outline slide-right"
             href="/contact"
           >

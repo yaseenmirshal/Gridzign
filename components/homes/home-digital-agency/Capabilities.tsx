@@ -62,7 +62,7 @@ export default function Capabilities() {
                     <AnimatedButton
                       text="Works"
                       className="btn btn-anim btn-default btn-outline slide-right-up"
-                      href={`/works-masonry`}
+                      href={`/casestudy3`}
                     >
                       <i className="ph-bold ph-arrow-up-right" />
                     </AnimatedButton>

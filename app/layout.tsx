@@ -7,22 +7,28 @@ export const metadata = {
   description: "Digital Agency",
 };
 
-const setColorSchemeScript = `
-(function() {
-  try {
-    var scheme = localStorage.getItem('color-scheme') || 'light';
-    document.documentElement.setAttribute('color-scheme', scheme);
-  } catch(e) {}
-})();
-`;
+
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className="no-touch" suppressHydrationWarning>
       <head>
         <script
-          dangerouslySetInnerHTML={{ __html: setColorSchemeScript }}
-        />
+  dangerouslySetInnerHTML={{
+    __html: `
+      (function() {
+        try {
+          var theme = localStorage.getItem('theme');
+          if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+            document.documentElement.classList.add('dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+          }
+        } catch (e) {}
+      })();
+    `,
+  }}
+/>
       </head>
       <body>
         <ClientLayout>{children}</ClientLayout>

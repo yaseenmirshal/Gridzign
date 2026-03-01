@@ -19,7 +19,7 @@ export default function MarqueeSlider3() {
                   <Image
                     className="clientimage"
                     alt={`Client ${n}`}
-                    src={`/img/clientslogo/${n}.png`}
+                    src={`/img/clientslogonew/${n}.jpeg`}
                     width={1200}
                     height={1000}
                   />
@@ -38,7 +38,7 @@ export default function MarqueeSlider3() {
                   <Image
                     className="clientimage"
                     alt={`Client ${n}`}
-                    src={`/img/clientslogo/${n}.png`}
+                    src={`/img/clientslogonew/${n}.jpeg`}
                     width={1200}
                     height={1000}
                   />

@@ -2,6 +2,7 @@ import Scrollup from "@/components/scroll/Scrollup";
 import ScrollReset from "@/components/scroll/ScrollReset";
 import "../public/css/styles.css";
 import ClientLayout from "@/components/layout/ClientLayout";
+import WhatsappFloat from "@/components/common/WhatsappFloat";
 
 // Metadata (JSX-compatible)
 export const metadata = {
@@ -35,6 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <body>
        <ScrollReset/>
        <Scrollup/>
+       <WhatsappFloat/>
         <ClientLayout>{children}</ClientLayout>
       </body>
     </html>

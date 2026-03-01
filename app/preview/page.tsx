@@ -8,6 +8,7 @@ import Hero from "@/components/homes/home-digital-agency/Hero";
 import MarqueeSlider from "@/components/homes/home-digital-agency/MarqueeSlider";
 import Partners from "@/components/homes/home-digital-agency/Partners";
 import Services from "@/components/homes/home-digital-agency/Services";
+
 import { Metadata } from "next";
 import Projects from "@/components/homes/home-web-agency/Projects";
 import MarqueeSlider3 from "@/components/homes/home-web-agency/MarqueeSlider3";
@@ -21,6 +22,7 @@ export default function HomeDigitalAgencyPage() {
   return (
     <>
       <main id="mxd-page-content" className="mxd-page-content">
+        
         <Hero />
         <Services />
         <Capabilities />

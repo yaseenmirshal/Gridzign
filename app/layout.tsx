@@ -1,3 +1,5 @@
+import Scrollup from "@/components/scroll/Scrollup";
+import ScrollReset from "@/components/scroll/ScrollReset";
 import "../public/css/styles.css";
 import ClientLayout from "@/components/layout/ClientLayout";
 
@@ -31,6 +33,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 />
       </head>
       <body>
+       <ScrollReset/>
+       <Scrollup/>
         <ClientLayout>{children}</ClientLayout>
       </body>
     </html>

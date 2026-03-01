@@ -96,7 +96,7 @@ export default function Footer2() {
                     item: { label: string; href: string; counter?: number },
                     idx: number
                   ) => (
-                    <li className="footer-nav__item anim-uni-in-up" key={idx}>
+                    <li className="footer-nav__item " key={idx}>
                       <AnimatedButton
                         href={item.href}
                         text={item.label}

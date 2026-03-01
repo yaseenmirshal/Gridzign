@@ -1,54 +1,60 @@
 {
-  "projects1": [
-    {
-      "id": 1,
-      "title": "Mobile Food Experience",
-      "description": " Across Dubai’s Iconic Spots",
-      "previewClass": "preview-image-1",
-      "tags": ["12 Carts"],
-      "anim": "anim-uni-in-up"
-    },
-    {
-      "id": 2,
-      "title": "Seamless Global",
-      "description": " Trading Platform for Modern Investors",
-      "previewClass": "preview-image-2",
-      "tags": ["Asian Capital"],
-      "anim": "anim-uni-in-up"
-    },
-    {
-      "id": 3,
-      "title": "Global Humanitarian",
-      "description": " Fleet Management Solutions",
-      "previewClass": "preview-image-3",
-      "tags": ["IFRC"],
-      "anim": ""
-    },
-    {
-      "id": 4,
-      "title": "Next-Gen",
-      "description": "Cloud Hosting Platform for Businesses",
-      "previewClass": "preview-image-4",
-      "tags": ["Hostimpress"],
-      "anim": "anim-uni-in-up"
-    },
-    {
-      "id": 5,
-      "title": "Elegant ",
-      "description": "Online Platform for Premium Jewelry Shopping",
-      "previewClass": "preview-image-5",
-      "tags": ["Thangals Gold"],
-      "anim": "anim-uni-in-up"
-    },
-    {
-      "id": 6,
-      "title": "Comprehensive Risk & Insurance ",
-      "description": "Solutions for All Sectors",
-      "previewClass": "preview-image-6",
-      "tags": ["Northern Insurance Broker"],
-      "anim": "anim-uni-in-up"
-    }
-  ],
+ "projects1": [
+  {
+    "id": 1,
+    "title": "Mobile Food Experience",
+    "description": " Across Dubai’s Iconic Spots",
+    "previewClass": "preview-image-1",
+    "tags": ["12 Carts"],
+    "anim": "anim-uni-in-up",
+    "link": "https://12carts.com/"
+  },
+  {
+    "id": 2,
+    "title": "Seamless Global",
+    "description": " Trading Platform for Modern Investors",
+    "previewClass": "preview-image-2",
+    "tags": ["Asian Capital"],
+    "anim": "anim-uni-in-up",
+    "link": "https://asiancapitalfx.com/"
+  },
+  {
+    "id": 3,
+    "title": "Global Humanitarian",
+    "description": " Fleet Management Solutions",
+    "previewClass": "preview-image-3",
+    "tags": ["IFRC"],
+    "anim": "",
+    "link": "https://example.com/ifrc"
+  },
+  {
+    "id": 4,
+    "title": "Next-Gen",
+    "description": "Cloud Hosting Platform for Businesses",
+    "previewClass": "preview-image-4",
+    "tags": ["Hostimpress"],
+    "anim": "anim-uni-in-up",
+    "link": "https://hostimpress.com/"
+  },
+  {
+    "id": 5,
+    "title": "Elegant ",
+    "description": "Online Platform for Premium Jewelry Shopping",
+    "previewClass": "preview-image-5",
+    "tags": ["Thangals Gold"],
+    "anim": "anim-uni-in-up",
+    "link": "https://thangalsgold.com/"
+  },
+  {
+    "id": 6,
+    "title": "Comprehensive Risk & Insurance ",
+    "description": "Solutions for All Sectors",
+    "previewClass": "preview-image-6",
+    "tags": ["Northern Insurance Broker"],
+    "anim": "anim-uni-in-up",
+    "link": "https://northernib.com/"
+  }
+],
   "projects2": [
     {
       "id": 7,

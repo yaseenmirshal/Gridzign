@@ -61,11 +61,11 @@ export default function Blogs({
               <div className="row g-0">
                 {/* Blog Card 1 */}
                 <div className="col-12 col-xl-4 mxd-blog-preview__item mxd-grid-item animate-card-3">
-                  <Link className="mxd-blog-preview__media" href={`/casestudy3`}>
+                  <Link className="mxd-blog-preview__media" href={`/blog-article`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
                         src="https://i.ibb.co/xqQTJMCr/3457638478293472-9-2.png"
-                        alt="casestudy3"
+                        alt="/blog-article"
                         fill
                         className="object-cover"
                       />
@@ -80,19 +80,19 @@ export default function Blogs({
                   </Link>
 
                   <div className="mxd-blog-preview__data">
-                    <Link  href={`/contact`}>
+                    <Link  href={`/blog-article`}>
                       Why Every Business Needs an <span>E-Commerce </span> Website in Today’s Digital World 
                     </Link>
-                  </div>
+                  </div>  
                 </div>
 
                 {/* Blog Card 2 */}
                 <div className="col-12 col-xl-4 mxd-blog-preview__item mxd-grid-item animate-card-3">
-                  <Link className="mxd-blog-preview__media" href={`/casestudy3`}>
+                  <Link className="mxd-blog-preview__media" href={`/blog-1`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
                         src="https://i.ibb.co/jkKXtFgw/wooden-letters-magnifying-glass-and-clips-on-ligh-2026-01-09-07-43-43-utc.webp"
-                        alt="casestudy3"
+                        alt="/blog-1"
                         fill
                         className="object-cover"
                       />
@@ -107,7 +107,7 @@ export default function Blogs({
                   </Link>
 
                   <div className="mxd-blog-preview__data">
-                    <Link  href={`/contact`}>
+                    <Link  href={`/blog-1`}>
                       Why <span>SEO</span> is Crucial for Every Business in the Digital Age
                     </Link>
                   </div>
@@ -115,11 +115,11 @@ export default function Blogs({
 
                 {/* Blog Card 3 */}
                 <div className="col-12 col-xl-4 mxd-blog-preview__item mxd-grid-item animate-card-3">
-                  <Link className="mxd-blog-preview__media" href={`/casestudy3`}>
+                  <Link className="mxd-blog-preview__media" href={`/page-2`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
                         src="https://i.ibb.co/mCjn0948/3457638478293472-11-e1757925682249.jpg"
-                        alt="casestudy3"
+                        alt="/blog-2"
                         fill
                         className="object-cover"
                       />
@@ -133,7 +133,7 @@ export default function Blogs({
                   </Link>
 
                   <div className="mxd-blog-preview__data">
-                    <Link  href={`/contact`}>
+                    <Link  href={`/blog-2`}>
                       Why Every Business Needs a <span>Website</span> in the Digital Era
                     </Link>
                   </div>

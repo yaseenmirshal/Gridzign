@@ -1,372 +1,501 @@
-import Link from "next/link";
-import socials from "@/data/socials.json";
 import Image from "next/image";
-import { blogs2, blogs3, blogs4 } from "@/data/blogs.json";
-import SearchForm from "./SearchForm";
+import Link from "next/link";
+import Comments from "./Comments";
 import AnimatedButton from "../animation/AnimatedButton";
-// -------------------- Data (NO LINKS INSIDE) --------------------
-const headlineTags = [
-  "Midjourney",
-  "AI",
-  "Editorial",
-  "Interactive design",
-  "Web experience",
-  "Web design",
-  "Branding",
-  "UI",
-  "HTML",
-  "Frontend",
-  "UX",
-  "Motion design",
-  "3d modeling",
-  "Video editing",
-];
 
-const sidebarCategories = [
-  "Design",
-  "Development",
-  "Digital Marketing",
-  "Technology",
-  "Case Studies",
-  "Trends",
-];
-
-// -------------------- Small helpers --------------------
-const StarSvg = () => (
-  <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 20 20">
-    <path d="M19.6,9.6h-3.9c-.4,0-1.8-.2-1.8-.2-.6,0-1.1-.2-1.6-.6-.5-.3-.9-.8-1.2-1.2-.3-.4-.4-.9-.5-1.4,0,0,0-1.1-.2-1.5V.4c0-.2-.2-.4-.4-.4s-.4.2-.4.4v4.4c0,.4-.2,1.5-.2,1.5,0,.5-.2,1-.5,1.4-.3.5-.7.9-1.2,1.2s-1,.5-1.6.6c0,0-1.2,0-1.7.2H.4c-.2,0-.4.2-.4.4s.2.4.4.4h4.1c.4,0,1.7.2,1.7.2.6,0,1.1.2,1.6.6.4.3.8.7,1.1,1.1.3.5.5,1,.6,1.6,0,0,0,1.3.2,1.7v4.1c0,.2.2.4.4.4s.4-.2.4-.4v-4.1c0-.4.2-1.7.2-1.7,0-.6.2-1.1.6-1.6.3-.4.7-.8,1.1-1.1.5-.3,1-.5,1.6-.6,0,0,1.3,0,1.8-.2h3.9c.2,0,.4-.2.4-.4s-.2-.4-.4-.4h0Z" />
-  </svg>
-);
-
-const MetaTag: React.FC<{ label: string }> = ({ label }) => (
-  <span className="meta-tag">
-    <a href="#">{label}</a>
-    <StarSvg />
-  </span>
-);
-
-// -------------------- Component --------------------
-export default function Blogs1() {
+export default function BlogDetails() {
   return (
-    <>
-      {/* Section - Inner Page Headline Start */}
-      <div className="mxd-section mxd-section-inner-headline padding-blog-default-pre-grid">
-        <div className="mxd-container grid-container">
-          <div className="mxd-block loading-wrap">
-            <div className="container-fluid px-0">
-              <div className="row gx-0">
-                <div className="col-12" />
-                <div className="col-12 col-xl-10 mxd-grid-item no-margin">
-                  <div className="mxd-block__content">
-                    <div className="mxd-block__inner-headline loading__item">
-                      <h1 className="inner-headline__title headline-img-before headline-img-06">
-                        Our digital digest
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-12" />
-              </div>
-
-              <div className="row g-0">
-                <div className="col-12" />
-                {/* Headline tags via map */}
-                <div className="col-12 col-xl-8 mxd-grid-item no-margin">
-                  <div className="inner-headline__blogtags loading__item">
-                    {headlineTags.map((t) => (
-                      <span
-                        key={t}
-                        className="tag tag-default tag-outline tag-link-outline"
+    <div className="mxd-section padding-pre-title">
+      <div className="mxd-container grid-container">
+        <div className="mxd-article-area loading-wrap">
+          {/* Article Container Start */}
+          <div className="mxd-article-container mxd-grid-item no-margin">
+            {/* Article Start */}
+            <article className="mxd-article">
+              {/* Article Headline Start */}
+              <div className="mxd-article__headline">
+                <div className="mxd-article__meta">
+                 
+                  <div className="mxd-article__data loading__item">
+                    <span className="meta-date">
+                      june 13, 2025
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        version="1.1"
+                        viewBox="0 0 20 20"
                       >
-                        <a href="#">{t}</a>
-                      </span>
-                    ))}
+                        <path d="M19.6,9.6h-3.9c-.4,0-1.8-.2-1.8-.2-.6,0-1.1-.2-1.6-.6-.5-.3-.9-.8-1.2-1.2-.3-.4-.4-.9-.5-1.4,0,0,0-1.1-.2-1.5V.4c0-.2-.2-.4-.4-.4s-.4.2-.4.4v4.4c0,.4-.2,1.5-.2,1.5,0,.5-.2,1-.5,1.4-.3.5-.7.9-1.2,1.2s-1,.5-1.6.6c0,0-1.2,0-1.7.2H.4c-.2,0-.4.2-.4.4s.2.4.4.4h4.1c.4,0,1.7.2,1.7.2.6,0,1.1.2,1.6.6.4.3.8.7,1.1,1.1.3.5.5,1,.6,1.6,0,0,0,1.3.2,1.7v4.1c0,.2.2.4.4.4s.4-.2.4-.4v-4.1c0-.4.2-1.7.2-1.7,0-.6.2-1.1.6-1.6.3-.4.7-.8,1.1-1.1.5-.3,1-.5,1.6-.6,0,0,1.3,0,1.8-.2h3.9c.2,0,.4-.2.4-.4s-.2-.4-.4-.4h0Z" />
+                      </svg>
+                    </span>
+                    <span className="meta-time">5 min. read</span>
                   </div>
                 </div>
-                {/* Breadcrumbs */}
-                <div className="col-12 col-xl-4 mxd-grid-item no-margin">
-                  <div className="inner-headline__breadcrumbs loading__fade">
-                    <div className="breadcrumbs__nav">
-                      <span>
-                        <Link href={`/index-main`}>Home</Link>
-                      </span>
-                      <span className="current-item">Insights</span>
-                    </div>
-                  </div>
+                <div className="mxd-article__title loading__item">
+                  <h2 className="h2-small ">
+                    Why SEO is Crucial for Every Business in the Digital Age
+                  </h2>
+                </div>
+                <div className="mxd-article__tags loading__item">
+                  <span className="tag tag-default tag-outline tag-link-outline">
+                    <Link href={`/`}>Online Presence</Link>
+                  </span>
+                  <span className="tag tag-default tag-outline tag-link-outline">
+                    <Link href={`/`}>Cost-Effective</Link>
+                  </span>
+                  <span className="tag tag-default tag-outline tag-link-outline">
+                    <Link href={`/`}>Global Audience</Link>
+                  </span>
                 </div>
               </div>
-              {/* Inner Headline Tags End */}
-            </div>
-          </div>
-        </div>
-      </div>
-      {/* Section - Inner Page Headline End */}
+              {/* Article Headline End */}
+              {/* Article Thumb Start */}
+              {/* <div className="mxd-article__thumb loading__fade">
+                <Image
+                  alt="Article Thumbnail"
+                  src="/img/blog/article/1920x1280_tm-01.webp"
+                  width={1920}
+                  height={1280}
+                />
+              </div> */}
+              {/* Article Thumb End */}
+              {/* Article Content Start */}
+              <div className="mxd-article__content">
+                <div className="mxd-article__block">
+                  <p className="t-large mxd-article__excerpt">
+                    Search Engine Optimization (SEO) is no longer just a marketing buzzword—it’s a business
+necessity. With millions of websites competing for attention, SEO ensures that your
+business is visible to potential customers at the right time. A strong SEO strategy drives
+traffic, builds credibility, and increases conversions, helping businesses grow sustainably
+online.
+                  </p>
+                  {/* <p>
+                    The idea of working alongside AI felt both exciting and
+                    intimidating. Could a machine truly assist in producing work
+                    that matches the nuances of human creativity? With curiosity
+                    as my guide, I set out to explore the capabilities of these
+                    tools and see how they could enhance my artistic process.
+                  </p> */}
+                </div>
+                {/* <div className="mxd-article__block block-table-of-contents">
+                  <p className="table-of-contents__title">Table of contents:</p>
+                  <ul className="table-of-contents__nav">
+                    <li>
+                      <a href="#chapter-01">The Experiment Begins</a>
+                    </li>
+                    <li>
+                      <a href="#chapter-02">What I Learned</a>
+                    </li>
+                    <li>
+                      <a href="#chapter-03">How I Used AI in My Workflow</a>
+                    </li>
+                    <li>
+                      <a href="#chapter-04">The Challenges</a>
+                    </li>
+                    <li>
+                      <a href="#chapter-05">Why I&apos;ll Keep Using AI</a>
+                    </li>
+                    <li>
+                      <a href="#chapter-06">Final Thoughts</a>
+                    </li>
+                  </ul>
+                </div> */}
+                {/* <div id="chapter-01" className="mxd-article__block">
+                  <h3>The Experiment Begins</h3>
+                  <p>
+                    The idea was simple: could AI tools like MidJourney, DALL·E,
+                    or Stable Diffusion become valuable collaborators in my
+                    creative process? I wanted to see if these cutting-edge
+                    technologies could help me produce high-quality
+                    illustrations that met the expectations of my clients. With
+                    a mix of excitement and skepticism, I decided to dive in and
+                    put these tools to the test.
+                  </p>
+                </div> */}
+                <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                     1. Increase Organic Traffic
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                        SEO helps your website appear higher in search engine results, attracting users actively
+looking for your products or services. Unlike paid ads, organic traffic is cost-effective,
+consistent, and often more targeted, resulting in higher engagement and better ROI.
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
 
-      {/* Section - Blog Start */}
-      <div className="mxd-section padding-default">
-        <div className="mxd-container grid-container">
-          <div className="mxd-posts-area loading__fade">
-            {/* Posts Container Start */}
-            <div className="mxd-posts-container mxd-grid-item">
-              {/* Featured Post */}
-              {blogs2.map((featured) => (
-                <article
-                  key={featured.id}
-                  className="mxd-post post-featured radius-m"
-                >
-                  <Link className="post-featured__thumb" href={`/blog-article`}>
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                     2. Build Credibility and Trust
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                        Websites that rank higher in search results are perceived as more trustworthy by users.
+SEO involves optimizing content, improving site structure, and enhancing user experience
+—all factors that build authority and credibility for your brand.
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                    3. Enhance User Experience
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                         Modern SEO goes beyond keywords. Optimizing site speed, mobile responsiveness,
+navigation, and content structure ensures users can find information easily. A smooth,
+fast, and user-friendly website improves engagement and encourages repeat visits 
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                     4. Gain Competitive Advantage
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                        Businesses investing in SEO often outperform competitors who ignore it. By targeting the
+right keywords, creating quality content, and optimizing for search engines, you can
+attract more potential customers and dominate your niche.
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                    5. Drive Long-Term Results
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                       Unlike paid campaigns that stop delivering once the budget ends, SEO provides longlasting benefits. Well-optimized content continues to attract visitors, generate leads, and
+build brand awareness over time, making it a sustainable marketing investment.
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                    6. Measure and Improve Performance
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                         SEO is data-driven. Tools like Google Analytics and Search Console allow businesses to
+track traffic, engagement, conversions, and keyword performance. This enables
+continuous optimization and smarter business decisions based on real insights.
+positive reviews, and recommend your brand.
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+
+
+
+
+                 
+                {/* <div id="chapter-02" className="mxd-article__block">
+                  <h3>What I Learned</h3>
+                  <p>
+                    Here are the top three things I discovered during this
+                    process:
+                  </p>
+                  <ol className="article-ol">
+                    <li>
+                      AI is fast and powerful
+                      <ul className="article-ul">
+                        <li>It generates complex visuals in minutes.</li>
+                        <li>Great for quick brainstorming.</li>
+                      </ul>
+                    </li>
+                    <li>
+                      It&apos;s not always perfect
+                      <ul>
+                        <li>AI struggles with style consistency.</li>
+                        <li>
+                          It can take time to refine results to match a vision.
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      It raises ethical questions
+                      <ul>
+                        <li>Who owns the artwork?</li>
+                        <li>Is AI-generated content truly “original”?</li>
+                      </ul>
+                    </li>
+                  </ol>
+                </div> */}
+                <div className="mxd-article__block block-image">
+                  <div className="block-image__container">
                     <Image
-                      alt="Featured Post Thumb"
-                      src={featured.img}
-                      width={1400}
-                      height={900}
+                      alt="Article Image"
+                      src="https://wingmanplanning.com/wp-content/uploads/2025/02/what-is-seo-wingman-planning.jpg"
+                      width={1920}
+                      height={1280} 
                     />
-                  </Link>
-
-                  <div className="post-featured__categories">
-                    {featured.categories.map((c) => (
-                      <span
-                        key={c}
-                        className="tag tag-default tag-outline-permanent tag-link-outline-premanent"
-                      >
-                        <a href="#">{c}</a>
+                    <div className="block-image__tags">
+                      <span className="tag tag-default tag-permanent">
+                        Search Engine Optimization  
                       </span>
-                    ))}
-                  </div>
-
-                  <div className="post-featured__content">
-                    <div className="post-featured__meta">
-                      {featured.meta.map((m) => (
-                        <MetaTag key={m} label={m} />
-                      ))}
-                      <span className="meta-date">{featured.date}</span>
-                    </div>
-
-                    <h3 className="post-featured__title">
-                      <Link href={`/blog-article`}>{featured.title}</Link>
-                    </h3>
-
-                    <div className="post-featured__excerpt">
-                      <p>{featured.excerpt}</p>
                     </div>
                   </div>
-                </article>
-              ))}
-              {/* Regular posts via map */}
-              {blogs3.map((p, idx) => (
-                <article className="mxd-post post-simple" key={idx}>
-                  <Link
-                    className="post-simple__thumb radius-m"
-                    href={`/blog-article`}
-                  >
+                </div>
+
+                 <div className="mxd-article__block">
+
+                     <p className="quote__text">
+                      Conclusion
+                    </p>
+                    <p>
+                      SEO is essential for businesses that want to succeed online. It improves visibility, builds
+trust, enhances user experience, and drives measurable results. Investing in SEO today
+ensures your website not only reaches the right audience but also grows with your
+business over time.
+                    </p>
+                  </div>
+
+
+                {/* <div id="chapter-03" className="mxd-article__block">
+                  <h3>How I Used AI in My Workflow</h3>
+                  <p>
+                    AI didn&apos;t take over my process—it became part of my
+                    toolbox. Here&apos;s how:
+                  </p>
+                  <h5>Brainstorming</h5>
+                  <p>
+                    AI generated ideas and mood boards, saving hours of initial
+                    concepting and accelerating the creative process. This
+                    allowed for more time to refine and perfect the final
+                    designs.
+                  </p>
+                  <h5>Textures</h5>
+                  <p>
+                    AI created intricate backgrounds and patterns, significantly
+                    enhancing the visual appeal of illustrations and designs. It
+                    offered unique styles and elements that would have taken
+                    hours to craft manually.
+                  </p>
+                  <h5>Pitching</h5>
+                  <p>
+                    AI helped visualize ideas quickly for clients, improving
+                    presentations and making concepts more tangible. The
+                    efficiency and clarity it provided led to faster client
+                    approvals and feedback.
+                  </p>
+                </div>
+                <div className="mxd-article__block block-image">
+                  <div className="block-image__container">
                     <Image
-                      alt={p.imgAlt}
-                      src={p.img}
-                      width={800}
-                      height={680}
+                      alt="Article Image"
+                      src="/img/blog/article/1200x1200_img-01.webp"
+                      width={1200}
+                      height={1200}
                     />
-                    <div className="mxd-preview-hover">
-                      <i className="mxd-preview-hover__icon icon-small">
-                        <Image
-                          alt="Eye Icon"
-                          src="/img/icons/icon-eye.svg"
-                          width={38}
-                          height={21}
-                        />
-                      </i>
-                    </div>
-                  </Link>
-
-                  <div className="post-simple__content">
-                    <div className="post-simple__descr">
-                      <div className="post-simple__meta">
-                        {p.meta.map((m) => (
-                          <MetaTag key={m.label} label={m.label} />
-                        ))}
-                        <span className="meta-date">{p.date}</span>
-                      </div>
-
-                      <div className="post-simple__title">
-                        <h5>
-                          <Link href={`/blog-article`}>{p.title}</Link>
-                        </h5>
-                      </div>
-                    </div>
-
-                    <div className="post-simple__btn">
-                      <AnimatedButton
-                        className="btn btn-anim btn-default btn-outline slide-right-up"
-                        text="Read More"
-                        href={`/blog-article`}
-                      >
-                        <i className="ph ph-arrow-up-right" />
-                      </AnimatedButton>
+                    <div className="block-image__tags">
+                      <span className="tag tag-default tag-permanent">
+                        AI generated pattern
+                      </span>
                     </div>
                   </div>
-                </article>
-              ))}
+                  <div className="block-image__container">
+                    <Image
+                      alt="Article Image"
+                      src="/img/blog/article/1200x1200_img-02.webp"
+                      width={1200}
+                      height={1200}
+                    />
+                    <div className="block-image__tags">
+                      <span className="tag tag-default tag-permanent">
+                        AI generated image
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div id="chapter-04" className="mxd-article__block">
+                  <h3>The Challenges</h3>
+                  <p>
+                    <span>Creative Control.</span>I wanted to create a forest
+                    scene, but the AI kept adding random elements like
+                    futuristic buildings.
+                  </p>
+                  <p>
+                    <span>Style Consistency.</span>
+                    AI excels at individual pieces, but creating a cohesive set
+                    for branding is tricky.
+                  </p>
+                  <p>
+                    <span>Time Spent Tweaking.</span>
+                    Despite its speed, AI still required adjustments to meet
+                    client expectations.
+                  </p>
+                </div>
+                <div id="chapter-05" className="mxd-article__block">
+                  <h3>Why I&apos;ll Keep Using AI</h3>
+                  <p>
+                    AI tools like{" "}
+                    <a href="https://www.midjourney.com/home" target="_blank">
+                      MidJourney
+                    </a>{" "}
+                    and{" "}
+                    <a href="https://stablediffusionweb.com/" target="_blank">
+                      Stable Diffusion
+                    </a>{" "}
+                    don&apos;t replace illustrators. Instead, they:
+                  </p>
+                  <ul>
+                    <li>Provide inspiration when you hit creative blocks;</li>
+                    <li>
+                      Help with time-consuming tasks like creating textures;
+                    </li>
+                    <li>
+                      Push creative boundaries, inspiring new styles and
+                      techniques.
+                    </li>
+                  </ul>
+                </div>
+                <div id="chapter-06" className="mxd-article__block">
+                  <h3>Final Thoughts</h3>
+                  <p>
+                    AI in illustration isn&apos;t the end of
+                    creativity—it&apos;s the start of a new era. If you&apos;re
+                    an illustrator considering AI, here’s my advice:
+                  </p>
+                  <ul>
+                    <li>
+                      <span>Experiment:</span> Try different tools and see what
+                      works for you;
+                    </li>
+                    <li>
+                      <span>Adapt:</span> Use AI to complement your skills, not
+                      replace them;
+                    </li>
+                    <li>
+                      <span>Stay Original:</span> Your unique touch is what
+                      makes your art special.
+                    </li>
+                  </ul>
+                </div> */}
 
-              {/* Blog Pagination */}
-              <div className="mxd-blog-pagination">
-                <div className="mxd-blog-pagination__inner">
-                  <nav className="mxd-blog-pagination__items">
+
+
+              </div>
+              {/* Article Content End */}
+            </article>
+            {/* Article End */}
+            {/* Article Author Start */}
+
+
+            {/* <div className="mxd-article-author">
+              <div className="mxd-article-author__data">
+                <a className="mxd-article-author__avatar" href="#">
+                  <Image
+                    alt="Avatar"
+                    src="/img/avatars/300x300_ava-07.webp"
+                    width={300}
+                    height={300}
+                  />
+                </a>
+                <div className="mxd-article-author__info">
+                  <h5 className="mxd-article-author__name">
+                    <a href="#">Johanna Cherry</a>
+                    <small className="mxd-article-author__position">
+                      Brand Identity Expert
+                    </small>
+                  </h5>
+                  <div className="mxd-article-author__socials">
+                    <span className="tag tag-default tag-opposite tag-link-opposite">
+                      <a href="https://www.linkedin.com/" target="_blank">
+                        LinkedIn
+                      </a>
+                    </span>
+                    <span className="tag tag-default tag-opposite tag-link-opposite">
+                      <a href="https://www.behance.net/" target="_blank">
+                        Behance
+                      </a>
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <div className="mxd-article-author__quote">
+                <p>
+                  With years of experience blending creativity and strategy, she
+                  helps businesses stand out and connect with their audiences on
+                  a deeper level. When not designing, Johanna explores emerging
+                  trends in branding and shares her insights with the creative
+                  community.
+                </p>
+              </div>
+            </div> */}
+
+
+            {/* Article Author End */}
+            {/* Article Navigation Start */}
+
+
+            {/* <div className="mxd-article-navigation">
+              <div className="container-fluid p-0">
+                <div className="row g-0">
+                  <div className="col-6 mxd-article-navigation__navitem left">
                     <AnimatedButton
-                      href="#"
-                      className="mxd-blog-pagination__item blog-pagination-control prev btn btn-anim btn-line-small btn-bright anim-no-delay slide-left"
+                      className="btn btn-line-small btn-muted anim-no-delay slide-left"
                       as={"a"}
                       text="Prev"
                       position={"previous"}
                     >
                       <i className="ph ph-arrow-left" />
                     </AnimatedButton>
-                    {[1, 2, 3].map((n) => (
-                      <AnimatedButton
-                        key={n}
-                        className={`mxd-blog-pagination__item blog-pagination-number btn btn-anim ${
-                          n === 2 ? "active" : ""
-                        }`}
-                        as={"a"}
-                        text={n.toString()}
-                      ></AnimatedButton>
-                    ))}
+                    <a className="mxd-article-navigation__link" href="#">
+                      <span>
+                        Designing for the future of interactive digital spaces
+                      </span>
+                    </a>
+                  </div>
+                  <div className="col-6 mxd-article-navigation__navitem right">
                     <AnimatedButton
+                      className="btn btn-line-small btn-muted anim-no-delay slide-right"
                       as={"a"}
                       text="Next"
-                      className="mxd-blog-pagination__item blog-pagination-control next btn btn-anim btn-line-small btn-bright anim-no-delay slide-right"
-                      href="#"
+                      position={"next"}
                     >
                       <i className="ph ph-arrow-right" />
                     </AnimatedButton>
-                  </nav>
+                    <a className="mxd-article-navigation__link" href="#">
+                      <span>
+                        Mastering the art of minimalist web design with impact
+                      </span>
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            {/* Posts Container End */}
+            </div> */}
 
-            {/* Sidebar Start */}
-            <div className="mxd-sidebar mxd-grid-item">
-              {/* search widget */}
-              <div className="mxd-sidebar__widget bg-base-tint radius-m widget-search">
-                <SearchForm />
-              </div>
 
-              {/* categories widget */}
-              <div className="mxd-sidebar__widget bg-base-tint radius-m">
-                <div className="widget__title">
-                  <p>Categories</p>
-                </div>
-                <ul className="widget__categories">
-                  {sidebarCategories.map((c) => (
-                    <li className="categories__item" key={c}>
-                      <a href="#" className="categories__link">
-                        {c}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              </div>
+            {/* Article Navigation End */}
+            {/* Article Comments Start */}
 
-              {/* recent posts */}
-              <div className="mxd-sidebar__widget bg-base-tint radius-m">
-                <div className="widget__title">
-                  <p>Latest posts</p>
-                </div>
-                <ul className="widget__recent-posts">
-                  {blogs4.map((rp) => (
-                    <li className="recent-post__item" key={rp.title}>
-                      <div className="recent-post__thumb">
-                        <Link href={`/blog-article`}>
-                          <Image
-                            alt="Recent Post Preview"
-                            src={rp.img}
-                            width={300}
-                            height={300}
-                          />
-                        </Link>
-                      </div>
-                      <div className="recent-post__content">
-                        <div className="recent-post__meta">
-                          <span className="meta-tag">
-                            <StarSvg />
-                            <a href="#">{rp.category}</a>
-                          </span>
-                        </div>
-                        <div className="recent-post__title">
-                          <Link href={`/blog-article`}>{rp.title}</Link>
-                        </div>
-                      </div>
-                    </li>
-                  ))}
-                </ul>
-              </div>
 
-              {/* ad */}
-              <div className="mxd-sidebar__widget radius-m widget-ad">
-                <a className="widget__image" href="#" target="_blank">
-                  <Image
-                    alt="Ad Image"
-                    src="/img/blog/1200x1320_ad-01.webp"
-                    width={1200}
-                    height={1320}
-                  />
-                </a>
-                <div className="widget__tags">
-                  <span className="tag tag-default tag-permanent">
-                    Sponsored
-                  </span>
-                </div>
-              </div>
+            {/* <Comments /> */}
 
-              {/* about widget */}
-              <div className="mxd-sidebar__widget bg-base-tint radius-m widget-about">
-                <div className="widget__title">
-                  <p>About</p>
-                </div>
-                <div className="widget__descr">
-                  <p className="t-small">
-                    Dive into the latest trends, uncover valuable industry
-                    insights, and explore practical advice.
-                  </p>
-                </div>
-              </div>
 
-              {/* socials */}
-              <div className="mxd-sidebar__widget bg-base-tint radius-m widget-socials">
-                <div className="widget__title">
-                  <p>Ecosystem</p>
-                </div>
-                <div className="widget__descr">
-                  <p className="t-small">
-                    Follow us and get to know all the news and other interesting
-                    stuff first!
-                  </p>
-                </div>
 
-                <div className="widget__social-links-small">
-                  {socials.map(({ title, url }) => (
-                    <div className="social-links-small__item" key={title}>
-                      <div className="social-links-small__divider" />
-                      <a
-                        className="social-links-small__link"
-                        href={url}
-                        target="_blank"
-                      >
-                        <p className="social-links-small__title">{title}</p>
-                        <div className="social-links-small__icon">
-                          <i className="ph-bold ph-arrow-up-right" />
-                        </div>
-                      </a>
-                      <div className="social-links-small__divider" />
-                    </div>
-                  ))}
-                </div>
-              </div>
-            </div>
-            {/* Sidebar End */}
+            {/* Article Comments End */}
           </div>
+          {/* Article Container End */}
         </div>
       </div>
-      {/* Section - Blog End */}
-    </>
+    </div>
   );
 }

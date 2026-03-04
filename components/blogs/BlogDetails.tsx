@@ -15,18 +15,7 @@ export default function BlogDetails() {
               {/* Article Headline Start */}
               <div className="mxd-article__headline">
                 <div className="mxd-article__meta">
-                  <div className="mxd-article__breadcrumbs loading__item">
-                    <span>
-                      <Link href={`/index-main`}>Home</Link>
-                    </span>
-                    <span>
-                      <Link href={`/blog-standard`}>Insights</Link>
-                    </span>
-                    <span className="current-item">
-                      My journey into the future of art
-                      {/* <a href="#">My journey into the future of art</a> */}
-                    </span>
-                  </div>
+                 
                   <div className="mxd-article__data loading__item">
                     <span className="meta-date">
                       January 22, 2025
@@ -42,52 +31,50 @@ export default function BlogDetails() {
                   </div>
                 </div>
                 <div className="mxd-article__title loading__item">
-                  <h1 className="h1-small">
-                    My journey into the future of art
-                  </h1>
+                  <h2 className="h2-small ">
+                    Why Every Business Needs an E-Commerce Website in Today’s Digital World
+                  </h2>
                 </div>
                 <div className="mxd-article__tags loading__item">
                   <span className="tag tag-default tag-outline tag-link-outline">
-                    <Link href={`/blog-standard`}>Midjourney</Link>
+                    <Link href={`/`}>Online Presence</Link>
                   </span>
                   <span className="tag tag-default tag-outline tag-link-outline">
-                    <Link href={`/blog-standard`}>AI</Link>
+                    <Link href={`/`}>Cost-Effective</Link>
                   </span>
                   <span className="tag tag-default tag-outline tag-link-outline">
-                    <Link href={`/blog-standard`}>Editorial</Link>
+                    <Link href={`/`}>Global Audience</Link>
                   </span>
                 </div>
               </div>
               {/* Article Headline End */}
               {/* Article Thumb Start */}
-              <div className="mxd-article__thumb loading__fade">
+              {/* <div className="mxd-article__thumb loading__fade">
                 <Image
                   alt="Article Thumbnail"
                   src="/img/blog/article/1920x1280_tm-01.webp"
                   width={1920}
                   height={1280}
                 />
-              </div>
+              </div> */}
               {/* Article Thumb End */}
               {/* Article Content Start */}
               <div className="mxd-article__content">
                 <div className="mxd-article__block">
                   <p className="t-large mxd-article__excerpt">
-                    As a digital illustrator, I&apos;ve always been fascinated
-                    by the intersection of art and technology. Recently, I
-                    decided to dive into the world of artificial intelligence
-                    (AI) to see how it could help me create commercial
-                    illustrations more efficiently and creatively.
+                    In the digital era, having a strong online presence is no longer optional—it’s essential. An ecommerce website allows businesses to reach customers beyond physical boundaries,
+operate 24/7, and scale faster than ever. From startups to large enterprises, e-commerce
+provides a platform to showcase products, services, and solutions to a global audience.
                   </p>
-                  <p>
+                  {/* <p>
                     The idea of working alongside AI felt both exciting and
                     intimidating. Could a machine truly assist in producing work
                     that matches the nuances of human creativity? With curiosity
                     as my guide, I set out to explore the capabilities of these
                     tools and see how they could enhance my artistic process.
-                  </p>
+                  </p> */}
                 </div>
-                <div className="mxd-article__block block-table-of-contents">
+                {/* <div className="mxd-article__block block-table-of-contents">
                   <p className="table-of-contents__title">Table of contents:</p>
                   <ul className="table-of-contents__nav">
                     <li>
@@ -109,8 +96,8 @@ export default function BlogDetails() {
                       <a href="#chapter-06">Final Thoughts</a>
                     </li>
                   </ul>
-                </div>
-                <div id="chapter-01" className="mxd-article__block">
+                </div> */}
+                {/* <div id="chapter-01" className="mxd-article__block">
                   <h3>The Experiment Begins</h3>
                   <p>
                     The idea was simple: could AI tools like MidJourney, DALL·E,
@@ -121,29 +108,103 @@ export default function BlogDetails() {
                     a mix of excitement and skepticism, I decided to dive in and
                     put these tools to the test.
                   </p>
-                </div>
+                </div> */}
                 <div className="mxd-article__block block-quote">
                   <blockquote>
                     <p className="quote__text">
-                      AI didn&apos;t replace my creativity — it amplified it,
-                      unlocking possibilities I hadn&apos;t even imagined.
+                     1. Expand Your Reach Globally
                     </p>
                     <p className="quote__cite">
-                      <cite>Alex Walker</cite>
+                      <cite>
+                         A physical store limits your customer base to a geographic area. With an e-commerce
+website, businesses can target audiences anywhere in the world. This opens opportunities
+for new markets, international sales, and a wider brand presence.
+                      </cite>
                     </p>
                   </blockquote>
                 </div>
-                <div className="mxd-article__block">
-                  <p>
-                    At first, using AI felt like learning a new language.
-                    Experimenting with prompts and settings was a mix of trial
-                    and error, but it quickly became clear that these tools can
-                    be useful. What surprised me most was how seamlessly AI
-                    could complement my existing workflow, turning vague ideas
-                    into great visuals in ways I hadn&apos;t expected.
-                  </p>
+
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                     2. Operate 24/7 and Increase Sales
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                         Unlike traditional stores, e-commerce platforms are accessible around the clock.
+Customers can browse, compare, and purchase at their convenience, resulting in higher
+conversion rates and improved revenue.
+                      </cite>
+                    </p>
+                  </blockquote>
                 </div>
-                <div id="chapter-02" className="mxd-article__block">
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                    3. Cost-Effective Marketing and Customer Insights
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                         Digital stores provide analytics tools that track customer behavior, preferences, and
+purchase history. Businesses can use these insights to optimize marketing campaigns,
+offer personalized recommendations, and make data-driven decisions. 
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                     4. Build Credibility and Brand Authority
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                         A professional e-commerce website strengthens your brand’s credibility. Customers
+expect modern, user-friendly platforms that are secure and reliable. Well-designed
+websites signal trust and professionalism.  
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                     5. Scalability and Business Growth
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                         E-commerce platforms are highly scalable. Businesses can add new products, integrate
+third-party tools, and automate operations. This flexibility ensures your website grows
+alongside your business, without major infrastructure changes.
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+
+                 <div className="mxd-article__block block-quote">
+                  <blockquote>
+                    <p className="quote__text">
+                    6. Enhanced Customer Experience
+                    </p>
+                    <p className="quote__cite">
+                      <cite>
+                         Features like easy navigation, quick checkout, responsive design, and multiple payment
+options enhance the user experience. Satisfied customers are more likely to return, leave
+positive reviews, and recommend your brand.
+                      </cite>
+                    </p>
+                  </blockquote>
+                </div>
+
+
+
+
+                 
+                {/* <div id="chapter-02" className="mxd-article__block">
                   <h3>What I Learned</h3>
                   <p>
                     Here are the top three things I discovered during this
@@ -174,23 +235,37 @@ export default function BlogDetails() {
                       </ul>
                     </li>
                   </ol>
-                </div>
+                </div> */}
                 <div className="mxd-article__block block-image">
                   <div className="block-image__container">
                     <Image
                       alt="Article Image"
-                      src="/img/blog/article/1920x1280_img-01.webp"
+                      src="https://blog.shift4shop.com/hubfs/iStock-1051616786.jpg"
                       width={1920}
-                      height={1280}
+                      height={1280} 
                     />
                     <div className="block-image__tags">
                       <span className="tag tag-default tag-permanent">
-                        AI generated image
+                        E-commerce
                       </span>
                     </div>
                   </div>
                 </div>
-                <div id="chapter-03" className="mxd-article__block">
+
+                 <div className="mxd-article__block">
+
+                     <p className="quote__text">
+                      Conclusion
+                    </p>
+                    <p>
+                      A physical store limits your customer base to a geographic area. With an e-commerce
+  website, businesses can target audiences anywhere in the world. This opens opportunities
+  for new markets, international sales, and a wider brand presence.
+                    </p>
+                  </div>
+
+
+                {/* <div id="chapter-03" className="mxd-article__block">
                   <h3>How I Used AI in My Workflow</h3>
                   <p>
                     AI didn&apos;t take over my process—it became part of my
@@ -309,13 +384,18 @@ export default function BlogDetails() {
                       makes your art special.
                     </li>
                   </ul>
-                </div>
+                </div> */}
+
+
+
               </div>
               {/* Article Content End */}
             </article>
             {/* Article End */}
             {/* Article Author Start */}
-            <div className="mxd-article-author">
+
+
+            {/* <div className="mxd-article-author">
               <div className="mxd-article-author__data">
                 <a className="mxd-article-author__avatar" href="#">
                   <Image
@@ -355,10 +435,14 @@ export default function BlogDetails() {
                   community.
                 </p>
               </div>
-            </div>
+            </div> */}
+
+
             {/* Article Author End */}
             {/* Article Navigation Start */}
-            <div className="mxd-article-navigation">
+
+
+            {/* <div className="mxd-article-navigation">
               <div className="container-fluid p-0">
                 <div className="row g-0">
                   <div className="col-6 mxd-article-navigation__navitem left">
@@ -393,10 +477,17 @@ export default function BlogDetails() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
+
+
             {/* Article Navigation End */}
             {/* Article Comments Start */}
-            <Comments />
+
+
+            {/* <Comments /> */}
+
+
+
             {/* Article Comments End */}
           </div>
           {/* Article Container End */}

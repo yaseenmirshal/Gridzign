@@ -204,7 +204,7 @@ export default function Hero() {
               <div className="container-fluid p-0">
                 <div className="row g-0">
                   <div className="col-12 col-md-6 col-xl-4 mxd-grid-item no-margin">
-                    <div className="mxd-paragraph__lists loading__fade">
+                    <div className="mxd-paragraph__lists ">
                       <div className="container-fluid p-0">
                         <div className="row g-0 -mt-56">
                           <div className="col-6 col-xl-5">
@@ -267,7 +267,7 @@ export default function Hero() {
             </div>
           </div>
           <div
-            className="mxd-hero-02-static__btn hero-02-static-anim-el loading__fade"
+            className="mxd-hero-02-static__btn hero-02-static-anim-el "
             ref={(el) => {
               staticAnimRefs.current[2] = el;
             }}

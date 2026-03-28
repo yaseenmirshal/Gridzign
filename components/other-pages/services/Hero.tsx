@@ -105,8 +105,8 @@ export default function Hero() {
                                 </div>
                                 <div className="mxd-stats-cards__image mxd-stats-cards-image-3">
                                   <Image
-                                    alt="Illustration"
-                                    src="http://localhost:3000/img/illustrations/preview/robot.webp"
+                                    alt="Gridzign"
+                                    src="/img/illustrations/preview/robot.webp"
                                     width={800}
                                     height={800}
                                   />
@@ -138,8 +138,8 @@ export default function Hero() {
                                 </div>
                                 <div className="mxd-stats-cards__image mxd-stats-cards-image-4">
                                   <Image
-                                    alt="Illustration"
-                                    src="http://localhost:3000/img/illustrations/preview/robot%20head.webp"
+                                    alt="Gridzign"
+                                    src="/img/illustrations/preview/robot head.webp"
                                     width={800}
                                     height={800}
                                   />

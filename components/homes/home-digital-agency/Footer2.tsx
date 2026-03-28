@@ -159,7 +159,7 @@ export default function Footer2() {
         <div className="footer-blocks__column animate-card-3">
           {/* inner card */}
           <div className="footer-blocks__card">
-            <p className="mxd-point-subtitle anim-uni-in-up">
+            <p className="mxd-point-subtitle ">
               <svg
                 version="1.1"
                 xmlns="http://www.w3.org/2000/svg"
@@ -271,7 +271,7 @@ export default function Footer2() {
     href="https://maps.google.com/?q=Fair+Grow+General+Trading+LLC+Al+Nahda+2+Dubai"
     target="_blank"
     rel="noopener noreferrer"
-    className="flex items-start gap-3 text-gray-700 hover:text-black transition duration-300"
+    className="flex items-start mt-36 gap-3 text-gray-700 hover:text-black transition duration-300"
   >
  {/* <FaMapMarkerAlt className="w-4 h-4 mt-1 text-gray-500" /> */}
 
@@ -289,7 +289,7 @@ export default function Footer2() {
             
             </div>
             {/* links */}
-            <div className="footer-blocks__links anim-uni-in-up">
+            <div className="footer-blocks__links ">
               <p className="t-xsmall t-muted">
               Gridzign © 2026 
               </p>

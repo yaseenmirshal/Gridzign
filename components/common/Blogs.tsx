@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-
 import RevealText from "../animation/RevealText";
 import AnimatedButton from "../animation/AnimatedButton";
 
@@ -12,6 +11,7 @@ interface BlogsProps {
 }
 
 export default function Blogs({
+  
   title = "Recent insights",
   desc = defaultDesc,
 }: BlogsProps) {
@@ -61,7 +61,7 @@ export default function Blogs({
               <div className="row g-0">
                 {/* Blog Card 1 */}
                 <div className="col-12 col-xl-4 mxd-blog-preview__item mxd-grid-item animate-card-3">
-                  <Link className="mxd-blog-preview__media" href={`/blog-article`}>
+                  <Link className="mxd-blog-preview__media" href={`/blog-article`}  >
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
                         src="/img/blog/desktopui.jpeg"
@@ -115,7 +115,7 @@ export default function Blogs({
 
                 {/* Blog Card 3 */}
                 <div className="col-12 col-xl-4 mxd-blog-preview__item mxd-grid-item animate-card-3">
-                  <Link className="mxd-blog-preview__media" href={`/page-2`}>
+                  <Link className="mxd-blog-preview__media" href={`/blog-2`}>
                     <div className="mxd-blog-preview__image relative overflow-hidden">
                       <Image
                         src="/img/blog/paper.jpg"

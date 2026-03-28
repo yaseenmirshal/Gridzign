@@ -5,7 +5,10 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "@formspree/react";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+
+
 import AnimatedButton from "@/components/animation/AnimatedButton";
+import { countryCodes } from "@/components/other-pages/contact/countryCodes";
 
 export default function ContactForm() {
   const {
@@ -108,15 +111,30 @@ export default function ContactForm() {
                                 )}
                               </div>
                               <div className="col-12 col-md-6 mxd-grid-item anim-uni-in-up">
-                                <input
-                                  type="tel"
-                                  placeholder="Phone"
-                                  {...register("Phone")}
-                                />
+                                <div style={{ display: 'flex', gap: 8,  padding: '0 12px', borderRadius: 4, height: 40, alignItems: 'center' }}>
+                                  <select
+                                    style={{ maxWidth: 110 }}
+                                    {...register("CountryCode")}
+                                    defaultValue="+971"
+                                    aria-label="Country code"
+                                  >
+                                    {countryCodes.map((c: { code: string; name: string }) => (
+                                      <option key={c.code} value={c.code}>
+                                        {c.name} ({c.code})
+                                      </option>
+                                    ))}
+                                  </select>
+                                  <input
+                                    type="tel"
+                                    placeholder="Phone*"
+                                    style={{ flex: 1 }}
+                                    {...register("Phone")}
+                                  />
+                                </div>
                               </div>
                               <div className="col-12 mxd-grid-item anim-uni-in-up">
                                 <textarea
-                                  placeholder="A few words about your project*"
+                                  placeholder="A few words about your project"
                                   {...register("Message")}
                                 />
                                 {errors.Message && (

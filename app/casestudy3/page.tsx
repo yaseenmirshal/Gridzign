@@ -42,7 +42,7 @@ export default function CaseStudy() {
                                   </div>
                                   <div className="col-12 mxd-grid-item no-margin">
                                     <div className="mxd-section-title__descr">
-                                      <p className="anim-uni-in-up">
+                                      <p className="">
                                         Explore a selection of projects blending
                                         <br />
                                         creativity with practical design
@@ -50,9 +50,9 @@ export default function CaseStudy() {
                                     </div>
                                   </div>
                                   <div className="col-12 mxd-grid-item no-margin">
-                                    <div className="mxd-section-title__controls anim-uni-in-up">
+                                    <div className="mxd-section-title__controls ">
                                       <AnimatedButton
-                                        text="All Works"
+                                        text="Contact Us"
                                         className="btn btn-anim btn-default btn-outline slide-right-up"
                                         href={`/contact`}
                                       >

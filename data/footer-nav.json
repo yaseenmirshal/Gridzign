@@ -1,6 +1,6 @@
 [
   {
-    "label": "Homie",
+    "label": "Home",
     "href": "/home-main"
   },
   {
@@ -16,8 +16,9 @@
     "href": "/services"
   },
   {
-    "label": "Insights",
-    "href": "/blog-standard"
+    "label": "Web Hosting",
+    "target": "_blank",
+    "href": "https://hostimpress.com/"
   },
   {
     "label": "Connect",

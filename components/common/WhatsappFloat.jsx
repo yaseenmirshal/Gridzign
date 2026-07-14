@@ -10,7 +10,7 @@ function Whastappfloat() {
   href="https://wa.me/971555784992"
   target="_blank"
   rel="noopener noreferrer"
-  className="fixed ml-10 bottom-20 left-8 z-[9999]"
+  className="fixed bottom-12 left-4 sm:left-8 z-[9999]"
   aria-label="Chat on WhatsApp"
 >
   <div className="relative w-20 h-20">

@@ -5964,9 +5964,9 @@ html[color-scheme="light"] .logo-dark {
   transform: rotate(135deg);
 }
 .main-menu__link {
-  height: 4.2rem;
-  line-height: 4.2rem;
-  font: normal var(--fw-medium-opp) 3.6rem var(--_font-accent);
+  height: 3.2rem;
+  line-height: 3.2rem;
+  font: normal var(--fw-medium-opp) 2.6rem var(--_font-accent);
   color: var(--t-opp-bright);
 }
 .main-menu__link .btn-caption {

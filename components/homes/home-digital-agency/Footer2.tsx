@@ -140,18 +140,18 @@ export default function Footer2() {
                 text="Gridzign Subscriptions"
                 as={"a"}
                 className="btn btn-line-xsmall btn-muted slide-right anim-no-delay"
-                href="#"
+                href="http://subscription.gridzign.com/"
               >
                 <i className="ph ph-arrow-right" />
               </AnimatedButton>
-              <AnimatedButton
+              {/* <AnimatedButton
                 text="T&amp;C"
                 as={"a"}
                 className="btn btn-line-xsmall btn-muted slide-right anim-no-delay"
                 href="#"
               >
                 <i className="ph ph-arrow-right" />
-              </AnimatedButton>
+              </AnimatedButton> */}
             </div>
           </div>
         </div>
@@ -257,7 +257,7 @@ export default function Footer2() {
                       <a
                         href={social.url}
                         className="footer-socials__link"
-                        target="_blank"
+                        
                       >
                         {social.title}
                       </a>

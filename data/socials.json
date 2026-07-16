@@ -1,7 +1,7 @@
 [
-  { "title": "Web Development", "url": "https://hostimpress.com/" },
-  { "title": "App Development", "url": "https://hostimpress.com/" },
-  { "title": "UI/UX & Design", "url": "https://hostimpress.com/" },
-  { "title": "E-Commerce Solutions", "url": "https://hostimpress.com/" },
-  { "title": "Digital Marketing", "url": "https://hostimpress.com/" }
+  { "title": "Web Development", "url": "/services" },
+  { "title": "App Development", "url": "/services" },
+  { "title": "UI/UX & Design", "url": "/services" },
+  { "title": "E-Commerce Solutions", "url": "/services" },
+  { "title": "Digital Marketing", "url": "/services" }
 ]

@@ -28,19 +28,19 @@
     "imageHeight": 800,
     "avatars": [
       {
-        "src": "https://i.ibb.co/MkwrXPTG/34635235262-1.webp",
+        "src": "/img/avatars/avatar1.png",
         "alt": "Avatar",
         "width": 300,
         "height": 300
       },
       {
-        "src": "https://i.ibb.co/C3bcKJkp/34635235262-2.webp",
+        "src": "/img/avatars/avatar2.png",
         "alt": "Avatar",
         "width": 300,
         "height": 300
       },
       {
-        "src": "https://i.ibb.co/2Yv39PdJ/34635235262.webp",
+        "src": "/img/avatars/avatar3.png",
         "alt": "Avatar",
         "width": 300,
         "height": 300

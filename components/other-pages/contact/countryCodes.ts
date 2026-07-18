@@ -19,7 +19,6 @@ export const countryCodes = [
   { code: "+20", name: "Egypt" },
   { code: "+90", name: "Turkey" },
   { code: "+62", name: "Indonesia" },
-  { code: "+234", name: "Nigeria" },
-  { code: "+91", name: "India" },
+  { code: "+234", name: "Nigeria" }
   // ...add more as needed
 ];

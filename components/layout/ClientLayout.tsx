@@ -1,7 +1,9 @@
 "use client";
 
+import { usePathname } from "next/navigation";
 import MobileMenu from "@/components/headers/MobileMenu";
 import Header1 from "@/components/headers/Header1";
+import WhatsappFloat from "@/components/common/WhatsappFloat";
 import InitScroll from "@/components/scroll/InitScroll";
 import LenisSmoothScroll from "@/components/scroll/LenisSmoothScroll";
 import ScrollTop from "@/components/scroll/ScrollTop";
@@ -11,13 +13,17 @@ interface ClientLayoutProps {
 }
 
 export default function ClientLayout({ children }: ClientLayoutProps) {
+  const pathname = usePathname();
+  const isAdminRoute = pathname?.startsWith("/admin") ?? false;
+
   return (
     <>
-      <MobileMenu />
-      <Header1 />
+      {!isAdminRoute && <MobileMenu />}
+      {!isAdminRoute && <Header1 />}
       {children}
       <InitScroll />
-      <ScrollTop />
+      {!isAdminRoute && <ScrollTop />}
+      {!isAdminRoute && <WhatsappFloat />}
       <LenisSmoothScroll />
     </>
   );

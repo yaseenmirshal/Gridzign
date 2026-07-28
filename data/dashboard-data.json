@@ -1,0 +1,23 @@
+{
+  "team": [],
+  "blogs": [],
+  "caseStudies": [
+    {
+      "id": "94681577-1332-4c2c-936c-d71765a5956b",
+      "title": "Demo Studies",
+      "client": "Demo Studies",
+      "summary": "Demo Studies",
+      "description": "Demo Studies",
+      "category": "Demo Studies",
+      "image": "",
+      "link": "",
+      "tags": [],
+      "featured": false,
+      "createdAt": "2026-07-22T15:22:18.933Z",
+      "updatedAt": "2026-07-22T15:22:18.933Z"
+    }
+  ],
+  "services": [],
+  "projects": [],
+  "inquiries": []
+}
